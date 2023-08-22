@@ -1,0 +1,53 @@
+void main()
+{
+}
+
+void dialog000()
+{
+	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei33830_01", 256, TRUE);
+	OutputLine(NULL, "ちびっ子！",
+		   NULL, " She's tiny!", Line_Continue);
+}
+
+void dialog001()
+{
+//「な、…なぁんだ…＠　てっきりおじさんは圭一のかぁいいオットセイかと～！！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(3, 3, "ps3/s19/03/500300731", 256, TRUE);
+	OutputLine(NULL, "「な、…なぁんだ…！",
+		   NULL, "\"Oh... Ohhh...!", Line_WaitForInput);
+	ModPlayVoiceLS(3, 3, "ps3/s19/03/500300732", 256, TRUE);
+	OutputLine(NULL, "　てっきりおじさんは圭ちゃんの・・・　あははははっはぁ〜！！」",
+		   NULL, " This old man thought you meant it was Keiichi's... Ahahaha.. haaa!!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog002()
+{
+//「身包み剥いでッ！＠　ケツの毛までひん剥いてやるぜぇえぇえッ！！！！＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei34010", 256, TRUE);
+	OutputLine(NULL, "「身包み剥いでッ！！",
+		   NULL, "\"We'll leave you with nothing!", Line_WaitForInput);
+	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei34020", 256, TRUE);
+	OutputLine(NULL, "　地獄の底に叩き落としてやるぜぇえぇえッ！！！！」",
+		   NULL, " And beat you into the depths of hell!!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog003()
+{
+//「…凡カレーに…緊張蚊取線香…オロ波ンＣぃッ！！！!w200　どうッ？！？！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(3, 3, "ps3/s19/03/500300718", 256, TRUE);
+	OutputLine(NULL, "「…カレーに…蚊取線香…昔なつかしのブリキ看板だっ！！！",
+		   NULL, "\"...Pleb Curry... Snake coil incense... nostalgic tin signs from the old days!!!", Line_Continue);
+
+	// (backup) SetValidityOfInput( FALSE );
+	Wait( 400 );
+	// (backup) SetValidityOfInput( TRUE );
+
+	OutputLine(NULL, "　どうッ？！？！」",
+		   NULL, " How about this!?!?\"", Line_Normal);
+	ClearMessage();
+}

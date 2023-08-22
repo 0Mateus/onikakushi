@@ -1,0 +1,23 @@
+void main()
+{
+}
+
+void dialog000()
+{
+}
+
+void dialog001()
+{
+}
+
+void dialog002()
+{
+}
+
+void dialog003()
+{
+}
+
+void dialog004()
+{
+}

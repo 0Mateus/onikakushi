@@ -1,0 +1,16 @@
+void main()
+{
+}
+
+void dialog000()
+{
+
+}
+
+void dialog001()
+{
+}
+
+void dialog002()
+{
+}
