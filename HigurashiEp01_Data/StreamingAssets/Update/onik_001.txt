@@ -1653,7 +1653,7 @@ void main()
 //　複数のワナを多彩に組み合わせ、本命のワナへ誘う誘導や、連続でヒットさせる連鎖系トラップなどなど＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　複数のワナを多彩に組み合わせ、本命のワナへ誘う誘導や、連続でヒットさせる連鎖系トラップなどなど。",
-		   NULL, "<size=-2>Satoko gostava de combinar uma variedade de armadilhas: armadilhas que serviam de isca para outras, armadilhas que implacavelmente chegavam a você como uma máquina de Rube Goldberg.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Satoko gostava de combinar uma variedade de armadilhas: armadilhas que serviam de isca para outras, armadilhas que implacavelmente chegavam a você como uma máquina de Rube Goldberg.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
