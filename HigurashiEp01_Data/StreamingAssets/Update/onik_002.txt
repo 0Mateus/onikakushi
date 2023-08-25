@@ -511,7 +511,7 @@ void main()
 //　うかつに書店でＨグラビアでも眺めてた日にゃ、次の日には村人全員にスケベ男のレッテルと貼られているに違いない…！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　うかつに書店でＨグラビアでも眺めてた日にゃ、次の日には村人全員にスケベ男のレッテルと貼られているに違いない…！！",
-		   NULL, "O dia que eu for pego acidentalmente folheando uma revista erótica na livraria ... Eu posso esperar que todos os moradores da vila me rotulem como uma pessoa indecente no dia seguinte...!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O dia que eu for pego acidentalmente folheando uma revista erótica na livraria... Eu posso esperar que todos os moradores da vila me rotulem como uma pessoa indecente no dia seguinte...!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1686,7 +1686,7 @@ void main()
 		   NULL, "\"Hau~!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200112", 256, TRUE);
 	OutputLine(NULL, "…り、…りり…梨花ちゃん、お、お持ち帰り…じゃなくて！",
-		   NULL, " ...Ri... Ri-Ri... Rika-chan, E-eu vou levar você para casa... Não, eu quis dizer...!", Line_WaitForInput);
+		   NULL, " ...Ri... Ri-Ri... Rika-chan, e-eu vou levar você para casa... Não, eu quis dizer...!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200113", 256, TRUE);
 	OutputLine(NULL, "　ありがと〜！！！！」",
 		   NULL, " Obrigada!!!!\"", GetGlobalFlag(GLinemodeSp));
@@ -3535,7 +3535,7 @@ void main()
 //　ねぐらに向かう鳥たちが、夜の帳がすぐそこまで訪れていることを告げていた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ねぐらに向かう鳥たちが、夜の帳がすぐそこまで訪れていることを告げていた。",
-		   NULL, "Pássaros voltando para sus casas proclamavam o início da noite.", Line_Normal);
+		   NULL, "Pássaros voltando para suas casas proclamavam o início da noite.", Line_Normal);
 	ClearMessage();
 
 //「圭一くんが手伝ってくれる☆!d300…ランディーくんをお持ち帰りできる……はぅ…。＠
