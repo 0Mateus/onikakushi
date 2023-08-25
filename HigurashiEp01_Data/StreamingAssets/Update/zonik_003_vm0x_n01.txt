@@ -43,11 +43,11 @@ void dialog009()
 //　…鉈で＠…つるはしで＠…斧、で￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…鉈で。",
-		   NULL, "...With hatchets.", Line_WaitForInput);
+		   NULL, "...Com machadinhas.", Line_WaitForInput);
 	OutputLine(NULL, "…つるはしで。",
-		   NULL, " ...With pickaxes.", Line_WaitForInput);
+		   NULL, " ...Com picaretas.", Line_WaitForInput);
 	OutputLine(NULL, "…鉈、で。",
-		   NULL, " ...With... a hatchet.", Line_Normal);
+		   NULL, " ...Com... uma machadinha.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -91,16 +91,16 @@ void dialog009()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200220", 256, TRUE);
 	OutputLine(NULL, "「きゃッ！、ごご、ごめんなさい…！！！",
-		   NULL, "\"Eek! S-S-Sorry...!!!", Line_WaitForInput);
+		   NULL, "\"Eek! D-D-Desculpe...!!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200221", 256, TRUE);
 	OutputLine(NULL, "　驚いたかな？！驚いたかな？！」",
-		   NULL, " Did I startle you!? Did I startle you!?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu assustei você!? Eu assustei você!?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //　レナもまた、俺の声に驚き、その手の斧をどさりと草むらに落とした￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナもまた、俺の声に驚き、その手の鉈をどさりと草むらに落とした。",
-		   NULL, "Rena dropped the hatchet she was holding onto the grass after being startled by my voice.", Line_Normal);
+		   NULL, "Rena largou o machado que ela estava segurando sobre a relva depois de se assustar com minha voz.", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 1, "msys11", 56, 0 );
@@ -111,10 +111,10 @@ void dialog009()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200222", 256, TRUE);
 	OutputLine(NULL, "「圭一くんね、さっきほら、斧とかがあると便利だって言ったじゃない？！",
-		   NULL, "\"Keiichi-kun, you see, earlier, yeah, you said it would help if you had an axe or something, didn't you!?", Line_WaitForInput);
+		   NULL, "\"Keiichi-kun, mais cedo, certo, você disse que ter um machado ajudaria, não é!?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200223", 256, TRUE);
 	OutputLine(NULL, "　そ、それでねレナ、物置からちゃんと鉈、持ってきたんだよ…！！」",
-		   NULL, " S-So then I... brought a hatchet for you... from the shed...!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " A-Assim eu... trouxe uma machadinha para você... do galpão....!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -124,10 +124,10 @@ void dialog010()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei05040", 256, TRUE);
 	OutputLine(NULL, "「最後の梁はその鉈じゃないと壊せそうにない。",
-		   NULL, "\"Doesn't look like we can break that last beam without that hatchet.", Line_WaitForInput);
+		   NULL, "\"Parece que não podemos quebrar esse último feixe sem uma machadinha.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei05050", 256, TRUE);
 	OutputLine(NULL, "せっかく持ってきてくれたんだし。…明日借りるよ。",
-		   NULL, " You brought it after all... I'll have to borrow it tomorrow.", Line_Continue);
+		   NULL, " Você a trouxe depois de tudo... Eu terei de pegá-la emprestada amanhã.", Line_Continue);
 }
 
 void dialog011()
