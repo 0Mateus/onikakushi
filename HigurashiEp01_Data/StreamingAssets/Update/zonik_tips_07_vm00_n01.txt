@@ -11,9 +11,9 @@ void dialog000()
 		   NULL, "\"Rena~?", Line_Continue);
 	Wait (400)
 	OutputLine(NULL, "　トイレじゃない？",
-		   NULL, " Didn't she go to the washroom?", Line_WaitForInput);
+		   NULL, " Ela não foi ao banheiro?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300024", 256, TRUE);
 	OutputLine(NULL, "　最近、お通じが来ないって言ってたなぁ。」",
-		   NULL, " She did say that she's been having bowel troubles lately.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ela disse que estava tendo problemas intestinais ultimamente.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 }
