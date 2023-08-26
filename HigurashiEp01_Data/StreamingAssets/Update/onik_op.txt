@@ -472,7 +472,7 @@ void main()
 //　これを振り下ろせば忘れてしまうのだから。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "これを振り下ろせば忘れてしまうのだから。",
-		   NULL, "Porque eu balanço isto para baixo, eu vou esquecer.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Porque quando eu balançar isto para baixo, eu vou esquecer.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
