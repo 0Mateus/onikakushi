@@ -3439,7 +3439,7 @@ void main()
 		   NULL, " Eu achei...!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "org/rena0003", 256, TRUE);
 	OutputLine(NULL, "　ケンタくん人形ッ♪！！」",
-		   NULL, " Um boneco do Coronel Sanders!♪\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Um boneco do Kenta-kun!♪\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3447,7 +3447,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "org/keiichi0009", 256, TRUE);
 	OutputLine(NULL, "「ケンタくん人形？！",
-		   NULL, "\"Um boneco do Coronel Sanders!?", Line_WaitForInput);
+		   NULL, "\"Um boneco do Kenta-kun!?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "org/keiichi0010", 256, TRUE);
 	OutputLine(NULL, "　…ってあれか、ケンタくんフライドチキンの店の前に必ず置いてある…",
 		   NULL, " ...Oh, aquilo. Essas estátuas que colocam na frente daquele lugar que vende frango frito...", Line_WaitForInput);
@@ -3461,7 +3461,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "org/rena0004", 256, TRUE);
 	OutputLine(NULL, "「…そう！　ケンタくん☆",
-			   NULL, "\"...Sim! Coronel Sanders.☆", Line_WaitForInput);
+			   NULL, "\"...Sim! Kenta-kun.☆", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "org/rena0005", 256, TRUE);
 	OutputLine(NULL, "　……はぅ……かぁいい……お持ち帰りしたいぃ…☆」",
 		   NULL, " ...Hau... mEiGU... Eu quero levar para casa...☆\"", GetGlobalFlag(GLinemodeSp));
@@ -3545,7 +3545,7 @@ void main()
 		   NULL, "\"Keiichi-kun vai me ajudar.☆", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "org/rena0007", 256, TRUE);
 	OutputLine(NULL, "…ケンタくんをお持ち帰りできる……はぅ…。」",
-		   NULL, " ...Eu posso levar o Coronel Sanders para casa... hau...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Eu posso levar Kenta-kun para casa... hau...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
