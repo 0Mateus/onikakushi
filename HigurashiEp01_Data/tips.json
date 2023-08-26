@@ -39,7 +39,7 @@
 			"Id": 5,
 			"Script": "onik_tips_06",
 			"UnlockChapter": 3,
-			"Title": "Reportagem especial do jornal",
+			"Title": "Reportagem especial do tabloide",
 			"TitleJp": "週刊誌の特集記事"
 		},
 		{
@@ -67,7 +67,7 @@
 			"Id": 9,
 			"Script": "onik_tips_10",
 			"UnlockChapter": 7,
-			"Title": "A morte por doença terminal do sacerdote xintoísta Furude",
+			"Title": "A morte por doença terminal do Sacerdote Xintoísta Furude",
 			"TitleJp": "古手神社の神主の病死"
 		},
 		{
@@ -88,7 +88,7 @@
 			"Id": 12,
 			"Script": "onik_tips_13",
 			"UnlockChapter": 8,
-			"Title": "Há mais de quatro criminosos?",
+			"Title": "Há mais de quatro autores do crime?",
 			"TitleJp": "犯人は４人以上？"
 		},
 		{
