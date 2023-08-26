@@ -100,7 +100,7 @@ void dialog009()
 //　レナもまた、俺の声に驚き、その手の斧をどさりと草むらに落とした￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナもまた、俺の声に驚き、その手の鉈をどさりと草むらに落とした。",
-		   NULL, "Rena largou o machado que ela estava segurando sobre a relva depois de se assustar com minha voz.", Line_Normal);
+		   NULL, "Rena largou a machadinha que ela estava segurando sobre a relva depois de se assustar com minha voz.", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 1, "msys11", 56, 0 );
