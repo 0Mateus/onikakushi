@@ -4094,7 +4094,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei06970", 256, TRUE);
 	OutputLine(NULL, "「…情けないぜ前原圭一！",
-		   NULL, "\"...Você é patético, Keiichi Maebara!", Line_WaitForInput);
+		   NULL, "\"...Você é patético, Maebara Keiichi!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei06980", 256, TRUE);
 	OutputLine(NULL, "　よっしゃレナ！",
 		   NULL, " Certo, Rena!", Line_WaitForInput);
