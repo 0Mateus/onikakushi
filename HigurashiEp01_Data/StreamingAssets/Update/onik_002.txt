@@ -3251,7 +3251,7 @@ void main()
 //　だが、おっさん…富竹さんは俺のそっけないあいづちにも気にせず、一人で喋り続けている￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、おっさん…富竹さんは俺のそっけないあいづちにも気にせず、一人で喋り続けている。",
-		   NULL, "Mas esse cara... Tomitake-san ... Ele não se importava com minhas respostas evasivas e continuava a tagarelar sobre si mesmo.", Line_Normal);
+		   NULL, "Mas esse cara... Tomitake-san... Ele não se importava com minhas respostas evasivas e continuava a tagarelar sobre si mesmo.", Line_Normal);
 	ClearMessage();
 
 //「圭一く～ん！　待たせてごめんねぇ～＠　もう終わりにするから～！！＠

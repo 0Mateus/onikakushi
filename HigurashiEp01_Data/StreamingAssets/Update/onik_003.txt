@@ -349,7 +349,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300143", 256, TRUE);
 	OutputLine(NULL, "「我が部はだな、複雑化する社会に対応するため、活動毎に提案されるさまざまな条件下、",
-		   NULL, "\"O que o nosso clube faz, você vê ... A fim de lidar com a nossa complicada sociedade, realizamos várias atividades sob diferentes conjuntos de regras.", Line_WaitForInput);
+		   NULL, "\"O que o nosso clube faz, você vê... A fim de lidar com a nossa complicada sociedade, realizamos várias atividades sob diferentes conjuntos de regras.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300144", 256, TRUE);
 	OutputLine(NULL, "…時には順境。",
 		   NULL, " ...Algumas vezes elas jogam a seu favor. ", GetGlobalFlag(GLinemodeSp));

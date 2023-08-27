@@ -1228,7 +1228,7 @@ void main()
 //　それを巧みに隠すことができれば……沙都子の追跡はかわせる＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを巧みに隠すことができれば……沙都子の追跡はかわせる！",
-		   NULL, "Se eu pudesse habilmente esconder minha trilha ... então não haveria nenhuma trilha para Satoko seguir!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se eu pudesse habilmente esconder minha trilha... então não haveria nenhuma trilha para Satoko seguir!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
