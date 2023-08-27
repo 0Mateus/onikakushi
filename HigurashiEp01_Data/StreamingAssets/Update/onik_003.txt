@@ -2599,7 +2599,7 @@ void main()
 	Wait( 1000 );
 
 	OutputLine(NULL, "…前原圭一〜！！！」",
-		   NULL, " Keiichi Maebara~!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Maebara Keiichi~!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
