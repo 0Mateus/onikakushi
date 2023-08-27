@@ -159,7 +159,7 @@ void main()
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "　公由喜一郎書",
-		   NULL, " Kiichirou Kimiyoshi", Line_Normal);
+		   NULL, " Kimiyoshi Kiichirou", Line_Normal);
 	ClearMessage();
 
 	SetValidityOfInput( FALSE );
