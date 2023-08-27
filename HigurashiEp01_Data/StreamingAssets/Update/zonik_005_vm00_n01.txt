@@ -7,9 +7,9 @@ void dialog000()
 //　浮かしてから弱弱中強？＠　しかもゲージ技まで持ってやがるッ！！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　浮かしてから弱弱中強？！",
-		   NULL, "Following the launcher with a jab, jab, strong, fierce combo!?", Line_WaitForInput);
+		   NULL, "Seguiu-se um lançador, um jab, outro jab, um forte, que combo feroz!!", Line_WaitForInput);
 	OutputLine(NULL, "　しかもゲージ技まで持ってやがるッ！！！",
-		   NULL, " He's even using meter!", Line_Normal);
+		   NULL, " Ele está mesmo abrindo contagem!", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -19,7 +19,7 @@ void dialog000()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei07470", 256, TRUE);
 	OutputLine(NULL, "「音からして…校長の空中強は多段ヒット技だな？」",
-		   NULL, "\"From how it sounded... the principal's jumping fierce sounds like a multi-hit combo.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Do modo como se ouvia... o salto feroz do diretor soava como um combo multi-hit.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -33,7 +33,7 @@ void dialog002()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 5, "ps3/s19/05/990500067", 256, TRUE);
 	OutputLine(NULL, "「…校長先生のエアリアル起動技です。」",
-		   NULL, "\"...That's the principal's aerial opener!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...Essa é a abertura aérea do diretor!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -43,7 +43,7 @@ void dialog003()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200368", 256, TRUE);
 	OutputLine(NULL, "「あははは〜圭一くん、前屈みだぁぁ……かぁいいかぁいいッ！！」",
-		   NULL, "\"Ahahaha~ Keiichi-kun is bending forward... kyute kyute!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Ahahaha~ Keiichi-kun está se dobrando para a frente... mEiGU mEiGU!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -53,10 +53,10 @@ void dialog004()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 4, "ps3/s19/04/990400135", 256, TRUE);
 	OutputLine(NULL, "「圭一さんは気付きませんの？！！",
-		   NULL, "\"Keiichi-san, do you not understand!?!", Line_WaitForInput);
+		   NULL, "\"Keiichi-san, você não compreende!?!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 4, "ps3/s19/04/990400136", 256, TRUE);
 	OutputLine(NULL, "　校長先生はハゲ頭を恥ずかしがってますの！！」",
-		   NULL, " The principal is balding and ashamed of it!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " O diretor é careca e tem vergonha disso!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -65,11 +65,11 @@ void dialog005()
 //　第一感想。…胴回りがキツイ＠第二感想。胸だけは割りとラク…＠第三感想。股間が……………はぅ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　第一感想。…胴回りがキツイ。",
-		   NULL, "My first thought... It's tight around the waist.", Line_WaitForInput);
+		   NULL, "Meu primeiro pensamento... É apertado em volta da cintura.", Line_WaitForInput);
 	OutputLine(NULL, "第二感想。胸だけは割りとラク…。",
-		   NULL, " Second thought. The chest area was pretty loose...", Line_WaitForInput);
+		   NULL, " Segundo pensamento. A área do peito é muito folgada...", Line_WaitForInput);
 	OutputLine(NULL, "第三感想。股間が……………はぅ。",
-		   NULL, " Third thought. The crotch area was... hau.", Line_Normal);
+		   NULL, " Terceiro pensamento. A área da virilha está... hau.", Line_Normal);
 	ClearMessage();
 }
 
@@ -79,25 +79,25 @@ void dialog006()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei08060", 256, TRUE);
 	OutputLine(NULL, "「校",
-		   NULL, "\"Princi", Line_Continue);
+		   NULL, "\"Dire", Line_Continue);
 //!s75
 
 	SetSpeedOfMessage( TRUE, 32, );
 
 	OutputLine(NULL, "長ぉぉおおおおぉおおおッ！！！　",
-		   NULL, "paaaAaaAal!!!", Line_Continue);
+		   NULL, "tooOooOr!!!", Line_Continue);
 //!sd
 
 
 
 	OutputLine(NULL, "勝負",
-		   NULL, " I challenge you...", Line_Continue);
+		   NULL, " Eu desafio você...", Line_Continue);
 //!s70
 
 	SetSpeedOfMessage( TRUE, 0, );
 
 	OutputLine(NULL, "ぅううぅううッ！！！！！」",
-		   NULL, " hurRrk!!!!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " huaaa!!!!!!\"", GetGlobalFlag(GLinemodeSp));
 //!sd
 
 	SetSpeedOfMessage( FALSE, 0, );
@@ -116,6 +116,6 @@ void dialog006()
 //　きゅぴーんという音が３回した。３ゲージ技かッ？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　きゅぴーんという音が３回した。３ゲージ技かッ？！",
-		   NULL, "I heard what sounded like a \"zhazhing\" three times.  His 3-gauge super!?", Line_Normal);
+		   NULL, "Eu ouvi aquilo soar como um 'xaxing' três vezes.  Seu super calibre 3!?", Line_Normal);
 	ClearMessage();
 }
