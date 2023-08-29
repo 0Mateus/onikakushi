@@ -1222,7 +1222,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/500200808", 256, TRUE);
 	OutputLine(NULL, "「…か、かき氷の早食いなんて……む……むり〜…！！」",
-		   NULL, "\"...C-Comer Kakigori tão rápido ... eu... eu não posso!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...C-Comer Kakigori tão rápido... eu... eu não posso!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1849,7 +1849,7 @@ void main()
 //　し、渋い……渋過ぎるぜ魅音…＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　し、渋い……渋過ぎるぜ魅音…。",
-		   NULL, "Isso é discreto ... Um pouco demasiado discreto, Mion...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Isso é discreto... Um pouco demasiado discreto, Mion...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3959,7 +3959,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/500200860", 256, TRUE);
 	OutputLine(NULL, "「じゃあさ、公平に…ジャンケンで決めるのはどうかな？　どうかな？！」",
-		   NULL, "\"Bem, então, para ser justo ... Que tal usar pedra, papel, tesoura, para decidir? Que tal!?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Bem, então, para ser justo... Que tal usar pedra, papel, tesoura, para decidir? Que tal!?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4193,7 +4193,7 @@ void main()
 //　命中率もすごいが……標的の選別も悪くない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　命中率もすごいが……標的の選別も悪くない。",
-		   NULL, "Sua precisão era incrível ... Sua escolha de alvos não era ruim.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Sua precisão era incrível... Sua escolha de alvos não era ruim.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -5408,7 +5408,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei34200", 256, TRUE);
 	OutputLine(NULL, "「もっと素早い連射力があれば…一撃ごとの揺れにパワーを上乗せできるのに…！」",
-		   NULL, "\"Se ao menos houvesse um jeito de atirar mais rápido ... Eu seria capaz de acumular mais poder de fogo sobre cada golpe anterior...!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Se ao menos houvesse um jeito de atirar mais rápido... Eu seria capaz de acumular mais poder de fogo sobre cada golpe anterior...!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
