@@ -24,7 +24,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（新聞には掲載されなかった……）",
-		   NULL, "(It wasn't reported in the newspaper...)", Line_Normal);
+		   NULL, "(Isto não foi reportado no jornal...)", Line_Normal);
 	ClearMessage();
 	SetStyleOfMessageSwinging( 0 );
 	SetValidityOfInput( FALSE );
