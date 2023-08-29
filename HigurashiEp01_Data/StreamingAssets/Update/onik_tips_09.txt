@@ -20,7 +20,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昭和５５年６月ＸＸ日夕刊より",
-		   NULL, "From the June 1980 edition.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Da edição de junho de Showa 55 (1980).", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -28,9 +28,10 @@ void main()
 //　県立白川自然公園内の展望台から２７ｍ下の渓流へ転落、行方不明になった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ＸＸ日午後２時頃、鹿骨市雛見沢村Ｘ丁目、会社員ＸＸＸさんと妻ＸＸＸＸさんが、",
-		   NULL, "On the afternoon of XX at 2PM, office employee XXXX and his wife XXXX of Hinamizawa village in Shishibone prefecture", Line_WaitForInput);
+		   NULL, "Na tarde de XX, às 2 da tarde, o empregado do escritório XXXX e sua esposa XXXX do povoado de Hinamizawa na prefeitura de Shishibone", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　県立白川自然公園内の展望台から２７ｍ下の渓流へ転落、行方不明になった。",
-		   NULL, " disappeared after falling 27 meters from the observatory platform in Shirakawa prefecture.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " desapareceram após caírem de uma altura de 27 metros a partir da plataforma do observatório na prefeitura de Shirakawa.", Line_WaitForInput);
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -38,7 +39,7 @@ void main()
 //　警察と消防で下流を捜索し、同日夜７時頃、ＸＸＸさんの遺体を発見した＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　警察と消防で下流を捜索し、同日夜７時頃、ＸＸＸさんの遺体を発見した。",
-		   NULL, "Police and firefighters searched downstream and discovered the body of XXXX at around 7PM that evening.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A polícia e os bombeiros procuraram rio abaixo e descobriram o corpo de XXXX em torno das 7 horas da noite.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -46,20 +47,20 @@ void main()
 //　妻のＸＸＸＸさんは依然見つかっていない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　妻のＸＸＸＸさんは依然見つかっていない。",
-		   NULL, "His wife, XXXXX has yet to be found.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A esposa de XXXX ainda não tinha sido encontrada.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　渓流は先日の台風３号の影響で増水しており、捜索は難航している￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　渓流は先日の台風３号の影響で増水しており、捜索は難航している。",
-		   NULL, "The search has run into difficulties due to the effects of Typhoon 3 from the previous day.", Line_Normal);
+		   NULL, "A busca ocorreu com dificuldades devido aos efeitos do tufão 3 do dia anterior.", Line_Normal);
 	ClearMessage();
 
 //　ＸＸさん夫妻は展望台で柵にもたれかかっていた所、柵が壊れ転落した模様＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ＸＸさん夫妻は展望台で柵にもたれかかっていた所、柵が壊れ転落した模様。",
-		   NULL, "It appeared a railing at the observatory that the XXs leaned on had broken, causing them to fall.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Parece que o corrimão do observatório onde XX se escorava caiu, levando-o à queda.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -67,7 +68,7 @@ void main()
 //　柵は老朽化しており、警察は公園内の設備管理が適正だったか関係者から事情を聞いている￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　柵は老朽化しており、警察は公園内の設備管理が適正だったか関係者から事情を聞いている。",
-		   NULL, "The grounds keeping staff was questioned by the police in regards to facility deterioration, and if park maintenance was performed properly.", Line_Normal);
+		   NULL, "A equipe que mantém o lugar foi interrogada pela polícia em relação à deterioração da facilidade, e se a manutenção de parque foi realizada corretamente.", Line_Normal);
 	ClearMessage();
 
 	SetValidityOfInput( FALSE );
