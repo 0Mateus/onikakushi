@@ -145,7 +145,7 @@ void main()
 //　前の町には確かにレコード屋もゲームセンターもアイスクリーム屋もあったが、別にそれらを頻繁に利用していたわけじゃない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　前の町には確かにレコード屋もゲームセンターもアイスクリーム屋もあったが、別にそれらを頻繁に利用していたわけじゃない。",
-		   NULL, "Havia lojas de disco e sorveterias, mas não era como seu quisesse realmente frequentar esses lugares.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Havia lojas de disco e sorveterias, mas não era como se eu quisesse realmente frequentar esses lugares.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
