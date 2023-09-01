@@ -27,7 +27,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "昭和５７年７月１日",
-		   NULL, "July 1, 1982", Line_ContinueAfterTyping);
+		   NULL, "1° de julho, Showa 57 (1982)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -39,7 +39,7 @@ void main()
 //総総管イ１－１２号
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "総総管イ１−１２号",
-		   NULL, "To departments 1 through 12,", Line_ContinueAfterTyping);
+		   NULL, "Para os departamentos de 1 a 12,", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -52,7 +52,7 @@ void main()
 //ＸＸ県警察本部
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ＸＸ県警察本部",
-		   NULL, "XX Prefectural Police headquarters.", Line_ContinueAfterTyping);
+		   NULL, "XX Delegacia de Polícia Metropolitana.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -63,7 +63,7 @@ void main()
 //本部長　ＸＸＸ
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "本部長　ＸＸＸ",
-		   NULL, "Director-General XXX", Line_ContinueAfterTyping);
+		   NULL, "Diretor Geral XXX", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -77,7 +77,7 @@ void main()
 //各警察署長・施設管理者殿
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "各警察署長・施設管理者殿",
-		   NULL, "To the chief constable and all facility managers.", Line_ContinueAfterTyping);
+		   NULL, "Para o chefe de polícia e todos os diretores de instalações.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -92,7 +92,7 @@ void main()
 //雛見沢村における事件について（通達）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "雛見沢村における事件について（通達）",
-		   NULL, "Regarding cases situated in the Hinamizawa village. (Notice)", Line_ContinueAfterTyping);
+		   NULL, "Em relação aos casos ocorridos na vila de Hinamizawa. (Notificação)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -104,7 +104,7 @@ void main()
 //　鹿骨市雛見沢村の近年の事件は、すでに一部マスコミでも報道されるように、/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鹿骨市雛見沢村の近年の事件は、すでに一部マスコミでも報道されるように、",
-		   NULL, "As cases in Shishibone city, Hinamizawa village have been reported by certain sections of mass media,", Line_ContinueAfterTyping);
+		   NULL, "Os recentes incidentes na vila de Hinamizawa, dentro da cidade de Shishibone, foram noticiados por certos setores da mídia de massa,", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -115,7 +115,7 @@ void main()
 //世間の好奇の目を引き地域住民の穏便な生活に重大な影響を及ぼしつつある、大変憂慮すべき事態となっている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "世間の好奇の目を引き地域住民の穏便な生活に重大な影響を及ぼしつつある、大変憂慮すべき事態となっている。",
-		   NULL, "it has drawn global attention, which is causing serious repercussions for the local residents. This has become a very serious situation.", Line_ContinueAfterTyping);
+		   NULL, "e chamaram a atenção pública, o que está causando sérias repercussões para os residentes locais. Isto tornou-se uma situação muito grave.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -126,7 +126,7 @@ void main()
 //　地域住民の生活と財産を保護するため、以下の遵守を通達する。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　地域住民の生活と財産を保護するため、以下の遵守を通達する。",
-		   NULL, "To protect the livelihood and prosperity of the residents, the following notice has been issued.", Line_ContinueAfterTyping);
+		   NULL, "Para proteger o estilo de vida e a prosperidade dos moradores, o seguinte aviso foi emitido.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -137,7 +137,7 @@ void main()
 //（１） 秘匿捜査指定
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（１）秘匿捜査指定",
-		   NULL, "1. Designate the following criminal investigations as classified.", Line_ContinueAfterTyping);
+		   NULL, "1. Designar as seguintes investigações criminais, conforme classificadas.", Line_ContinueAfterTyping);
 
 
 	FadeOutBGM( 2, 10, TRUE );
@@ -149,7 +149,7 @@ void main()
 //　興宮署昭和５７年第Ｘ号
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　興宮署昭和５７年第Ｘ号",
-		   NULL, "Okinomiya station 1982 case number X:", Line_ContinueAfterTyping);
+		   NULL, "Delegacia de Okinomiya, Showa 57 (1982), caso número X:", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -160,7 +160,7 @@ void main()
 //　　雛見沢村主婦殺人事件（６月ＸＸ日発生）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　雛見沢村主婦殺人事件（６月ＸＸ日発生）",
-		   NULL, "Hinamizawa village housewife murder (Dated June XX)", Line_ContinueAfterTyping);
+		   NULL, "Assassinato da dona de casa de Hinamizawa (Datado como XX de junho)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -171,7 +171,7 @@ void main()
 //　興宮署昭和５７年第Ｘ号
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　興宮署昭和５７年第Ｘ号",
-		   NULL, "Okinomiya station 1982 case number X:", Line_ContinueAfterTyping);
+		   NULL, "Delegacia de Okinomiya, Showa 57:", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -182,7 +182,7 @@ void main()
 //　　雛見沢村生徒失踪事件（６月ＸＸ日発生）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　雛見沢村生徒失踪事件（６月ＸＸ日発生）",
-		   NULL, "Hinamizawa village student disappearance (Dated June XX)", Line_ContinueAfterTyping);
+		   NULL, "Desaparecimento de um estudante, morador de Hinamizawa (Datado como XX de junho)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -193,7 +193,7 @@ void main()
 //（２） 情報の非開示
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（２）情報の非開示",
-		   NULL, "2. Non-disclosure of information.", Line_ContinueAfterTyping);
+		   NULL, "2. Não-divulgação de informações.", Line_ContinueAfterTyping);
 
 
 	FadeOutBGM( 2, 10, TRUE );
@@ -205,7 +205,7 @@ void main()
 //　興宮署昭和５４年第Ｘ号
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　興宮署昭和５４年第Ｘ号",
-		   NULL, "Okinomiya station 1979 case number X:", Line_ContinueAfterTyping);
+		   NULL, "Delegacia de Okinomiya, Showa 54 (1979:", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -216,7 +216,7 @@ void main()
 //　　雛見沢村現場監督殺人事件（６月ＸＸ日発生）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　雛見沢村現場監督殺人事件（６月ＸＸ日発生）",
-		   NULL, "Hinamizawa village site foreman murder (Dated June XX)", Line_ContinueAfterTyping);
+		   NULL, "Assassinato do capataz, não-morador de Hinamizawa (Datado como XX de junho)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -227,7 +227,7 @@ void main()
 //　白川署昭和５５年第Ｘ号
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　白川署昭和５５年第Ｘ号",
-		   NULL, "Shira station 1980 case number X:", Line_ContinueAfterTyping);
+		   NULL, "Delegacia de Shira, Showa 55 (1980), caso número X:", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -238,7 +238,7 @@ void main()
 //　　白川自然公園転落事故（６月ＸＸ日発生）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　白川自然公園転落事故（６月ＸＸ日発生）",
-		   NULL, "Shirakawa natural park falling incident (Dated June XX)", Line_ContinueAfterTyping);
+		   NULL, "Acidente de queda no parque natural de Shira (Datado como XX de junho)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -249,7 +249,7 @@ void main()
 //　興宮署昭和５６年第Ｘ号
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　興宮署昭和５６年第Ｘ号",
-		   NULL, "Okinomiya station 1981 case number X:", Line_ContinueAfterTyping);
+		   NULL, "Delegacia de Okinomiya, Showa 56 (1981), caso número X:", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -260,7 +260,7 @@ void main()
 //　　雛見沢村神主妻失踪事件（６月ＸＸ日発生）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　雛見沢村神主妻失踪事件（６月ＸＸ日発生）",
-		   NULL, "Hinamizawa village Shinto priest's wife's disappearance (Dated June XX)", Line_ContinueAfterTyping);
+		   NULL, "Desaparecimento da esposa do sacerdote da vila de Hinamizawa (Datado como XX de junho)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -271,7 +271,7 @@ void main()
 //（３） 関係各機関への報道自粛要請
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（３）関係各機関への報道自粛要請",
-		   NULL, "3. Requesting self-restraint from each organization concerning the release of sensitive information.", Line_ContinueAfterTyping);
+		   NULL, "3. Solicitando a auto-contenção de cada organização sobre a divulgação de informações confidenciais.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -282,7 +282,7 @@ void main()
 //　別添資料１・２・３参照
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　別添資料１・２・３参照",
-		   NULL, "Please see attached reference materials 1, 2, and 3.", Line_ContinueAfterTyping);
+		   NULL, "Por favor, consulte os materiais de referência nos anexos 1, 2 e 3.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -296,7 +296,7 @@ void main()
 //担当　ＸＸ県警察本部
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "担当　ＸＸ県警察本部",
-		   NULL, "Management: XX Prefecture Police headquarters", Line_ContinueAfterTyping);
+		   NULL, "Gerência: XX Delegacia de Polícia Metropolitana", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -310,7 +310,7 @@ void main()
 //内線ＸＸＸＸ
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "内線ＸＸＸＸ",
-		   NULL, "Internal line: XXXX", Line_ContinueAfterTyping);
+		   NULL, "Linha interna: XXXX", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -322,7 +322,7 @@ void main()
 //警務部ＸＸ・ＸＸ/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "警務部ＸＸ・ＸＸ",
-		   NULL, "Police Affairs department XX XX", Line_ContinueAfterTyping);
+		   NULL, "Assuntos de Polícia, Departamento XX XX", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
