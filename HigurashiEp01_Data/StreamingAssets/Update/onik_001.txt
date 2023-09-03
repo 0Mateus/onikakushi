@@ -1254,7 +1254,7 @@ void main()
 //　洋ゲーってのは輸入品のゲームの略だ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　洋ゲーってのは輸入品のゲームの略だ。",
-		   NULL, "\"JIO\" era uma abreviatura para \"Jogos Importados do Ocidente.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"JIO\" era uma abreviatura para \"Jogos Importados do Ocidente.\" (*) No texto em japonês, 'Yo Ge', contração de 'Yo Ge-mu' (Jogos Ocidentais)", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1654,6 +1654,11 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　複数のワナを多彩に組み合わせ、本命のワナへ誘う誘導や、連続でヒットさせる連鎖系トラップなどなど。",
 		   NULL, "Satoko gostava de combinar uma variedade de armadilhas: armadilhas que serviam de isca para outras, armadilhas que implacavelmente chegavam a você como uma máquina de Rube Goldberg.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GLanguage) == 1) {
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "",
+		NULL, " (*) Uma máquina onde um evento serve de gatilho para outro, numa reação em cadeia.", Line_Normal);
+	}
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

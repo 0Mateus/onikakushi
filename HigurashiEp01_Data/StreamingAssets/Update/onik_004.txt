@@ -217,13 +217,13 @@ void main()
 	PlaySE( 4, "wa_007", 56, 64 );
 	ShakeScreen( 0, 50, 20, 3, 0, );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
-
 	if (GetGlobalFlag(GLanguage) == 1) {
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "",
 		NULL, "(*) Onigokko é uma variação do pega-pega, onde um dos participantes é escolhido como o oni (ogro/demônio) e tem de tocar em outro participante para transformá-lo em demônio.", Line_Normal);
 	}
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
 
 
 //　しかし、すごい前振りの割りにはなんとも可愛らしいお遊戯が出てきたものだ￥
@@ -588,7 +588,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300232", 256, TRUE);
 	OutputLine(NULL, "「なら「靴下」は？！」",
-		   NULL, "\"E como é 「kutsushita」!?\" (*) Meias\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"E como é 「kutsushita」!?\" (*) Meias", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -638,7 +638,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300234", 256, TRUE);
 	OutputLine(NULL, "「では「性別」は英語で？！」",
-		   NULL, "\"O que 「seibetsu」 significa em inglês!?\" (*) Sexo\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"O que 「seibetsu」 significa em inglês!?\" (*) Sexo", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
