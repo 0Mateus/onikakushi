@@ -57,20 +57,13 @@ void dialog001()
 
 //「鬱状態には自殺願望はあるが、自殺という大仕事をげる気力すらもない＠だが躁状態が始まると徐々に気力が充実し、体の自由が利くようになってくる。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Investigador Forense</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	ModPlayVoiceLS(3, 0, "ps3/s20/00/443200027", 256, TRUE);
-	if (GetGlobalFlag(GADVMode)) {
 	OutputLine(NULL, "「内向状態には自殺願望はあるが、自殺という大仕事を遂げる気力すらもない。",
-		   NULL, "\"<size=-2>Há um desejo de cometer suicídio quando se está em um estado introvertido, mas eles não têm a força de vontade para cometer um ato tão formidável.", Line_Continue);
-	Wait ( 5200 );
-	OutputLine(NULL, "だが外向状態が始まると徐々に気力が充実し、体の自由が利くようになってくる」",
-		   NULL, " <size=-2>Mas quando entram em um estado extrovertido, ganham uma explosão de força de vontade e podem agir livremente de novo.\"", GetGlobalFlag(GLinemodeSp));
-	} else {
-		OutputLine(NULL, "「内向状態には自殺願望はあるが、自殺という大仕事を遂げる気力すらもない。",
 		   NULL, "\"Há um desejo de cometer suicídio quando se está em um estado introvertido, mas eles não têm a força de vontade para cometer um ato tão formidável.", Line_Continue);
 	Wait ( 5200 );
 	OutputLine(NULL, "だが外向状態が始まると徐々に気力が充実し、体の自由が利くようになってくる」",
 		   NULL, " Mas quando entram em um estado extrovertido, ganham uma explosão de força de vontade e podem agir livremente de novo.\"", GetGlobalFlag(GLinemodeSp));
-	}
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //「なぁるほど＠　つまり自殺する気力が回復するわけですね。＠
