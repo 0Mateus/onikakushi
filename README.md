@@ -1,7 +1,7 @@
-# Higurashi When They Cry: Capítulo 1 - Onikakushi
+# Higurashi When They Cry Hou: Capítulo 1 - Onikakushi
 
-Tradução da *Higurashi Eternal* adaptada para funcionar corretamente com o [07th-Mod](https://07th-mod.com).
+Tradução de _Higurashi When They Cry_ da **[_Higurashi Eternal_](https://higurashieternal.wordpress.com/)** adaptada para ser totalmente compatível com o **[_07th-Mod_](https://07th-mod.com)**.
 
 ## Créditos
 
-[Higurashi Eternal](https://higurashieternal.wordpress.com/) - Por ter liberado o uso dos seus textos traduzidos de sua tradução de Higurashi When They Cry
+[Higurashi Eternal](https://higurashieternal.wordpress.com/) - Liberado o uso dos textos e imagens das suas traduções de Higurashi no Naku Koro ni.
