@@ -75,7 +75,7 @@ void main()
 //　駅前での騒々しい選挙演説すらも今では懐かしかった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　駅前での騒々しい選挙演説すらも今では懐かしかった。",
-		   NULL, "Mesmo os estridentes discursos em frente à estação, parece nostálgico.", Line_Normal);
+		   NULL, "Mesmo os estridentes discursos em frente à estação, parecem nostálgicos.", Line_Normal);
 	ClearMessage();
 
 //　今、住んでいる土地にはそんな賑やかなものはない＠

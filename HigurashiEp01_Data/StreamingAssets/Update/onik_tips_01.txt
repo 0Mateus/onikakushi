@@ -484,7 +484,7 @@ void main()
 		   NULL, "\"Bem, é por isso.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300012", 256, TRUE);
 	OutputLine(NULL, "　興宮の学校に通いたくない連中は、こうして営林署の建物を間借りした仮校舎に通ってるってわけさ。」",
-		   NULL, " As pessoas que não queriam ir à Okinawa alugaram o prédio do serviço florestal, e estabeleceram esta pseudo-escola aqui.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " As pessoas que não queriam ir à Okinomiya alugaram o prédio do serviço florestal, e estabeleceram esta pseudo-escola aqui.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

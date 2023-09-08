@@ -374,7 +374,7 @@ void main()
 //　ただし鬼の交代はない＠鬼に触られた者もまた鬼となるのだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ただし鬼の交代はない。",
-		   NULL, "Mas nós não trocávamos o demônio (oni)", Line_WaitForInput);
+		   NULL, "Mas nós não trocávamos o demônio (oni).", Line_WaitForInput);
 	OutputLine(NULL, "鬼に触られた者もまた鬼となるのだ。",
 		   NULL, " Os que eram pegos pelo demônio também tornavam-se demônios.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

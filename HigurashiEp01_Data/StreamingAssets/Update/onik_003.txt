@@ -801,7 +801,7 @@ void main()
 //　レナが１枚カードを抜き、裏返しのまま車座の中央に置いた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音が１枚カードを抜き、裏返しのまま車座の中央に置いた。",
-		   NULL, "Mion tirou uma carta e deitou-a na mesa, com a face virada para baixa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mion tirou uma carta e deitou-a na mesa, com a face virada para baixo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3279,7 +3279,7 @@ void main()
 //　…実に迷惑なモチーフだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…実に迷惑なモチーフだ。",
-		   NULL, "...Esse é um mofit um tanto chato.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Esse é um motif um tanto chato.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

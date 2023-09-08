@@ -350,7 +350,7 @@ void main()
 		   NULL, "\"...Sim. Eu também penso assim.", Line_Continue);
 	Wait( 2650 );
 	OutputLine(NULL, "他にも体操服とかスクール水着のお古とかも扱ってるの。",
-		   NULL, "Eles também tem roupas de banho e uniformes de ginástica.", Line_WaitForInput);
+		   NULL, " Eles também tem roupas de banho e uniformes de ginástica.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200029", 256, TRUE);
 	OutputLine(NULL, "…そういうののお古はちょっと嫌だよねぇ。」",
 		   NULL, " Eu não gosto da ideia de ter de usá-las.\"", GetGlobalFlag(GLinemodeSp));

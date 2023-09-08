@@ -2601,7 +2601,7 @@ void main()
 	Wait( 200 );
 
 	OutputLine(NULL, "…ね！」",
-		   NULL, " ...não é!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Não é!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

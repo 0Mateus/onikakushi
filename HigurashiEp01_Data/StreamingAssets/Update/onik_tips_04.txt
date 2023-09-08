@@ -74,7 +74,7 @@ void main()
 //　他の容疑者も即日逮捕されたが、主犯格のＸＸＸＸは逃亡中＠警察は行方を追っている＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　他の容疑者も即日逮捕されたが、主犯格のＸＸＸＸは逃亡中。",
-		   NULL, "O resto dos suspeitos foi preso no mesmo dia, mas o principal suspeito ainda está foragido.", Line_WaitForInput);
+		   NULL, "O resto dos suspeitos foram presos no mesmo dia, mas o principal suspeito ainda está foragido.", Line_WaitForInput);
 	OutputLine(NULL, "警察は行方を追っている。",
 		   NULL, " A polícia está atualmente em seu encalço.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
