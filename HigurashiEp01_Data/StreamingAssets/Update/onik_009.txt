@@ -1489,7 +1489,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/500300711", 256, TRUE);
 	OutputLine(NULL, "「それでもおじさんは勝つけどねぇ！」",
-		   NULL, "\"Oji-san provavelmente ainda vai ganhar, não é !\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Oji-san provavelmente ainda vai ganhar, não é!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -6476,7 +6476,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 4, "ps3/s19/04/500400740", 256, TRUE);
 	OutputLine(NULL, "「お静かになさいませ！！　始まりですわ！！」",
-		   NULL, "\"Vocês devem ficar quietos !! Está começando!!\"", Line_Normal);
+		   NULL, "\"Vocês devem ficar quietos!! Está começando!!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("background/jy2", "up", 0, 0, 300 );
