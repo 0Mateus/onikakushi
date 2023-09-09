@@ -3278,7 +3278,7 @@ void main()
 //　それを受けて立たないのは失礼というものだろう＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを受けて立たないのは失礼というものだろう。",
-		   NULL, "Provavelmente seria rude não encará-la de frente", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Provavelmente seria rude não encará-la de frente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　…相手になってやるぞ小娘ぇえぇええッ！！￥
@@ -3623,7 +3623,7 @@ void main()
 //　俺への反逆は神への反逆だッ！！　身のほどを思い知らせてくれよう！！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺への反逆は神への反逆だッ！！　身のほどを思い知らせてくれよう！！！",
-		   NULL, "Opor-se a mim era o mesmo que se opor a Deus !! Eu vou ensinar-lhes o seu lugar!!!", Line_Normal);
+		   NULL, "Opor-se a mim era o mesmo que se opor a Deus!! Eu vou ensinar-lhes o seu lugar!!!", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -4336,7 +4336,7 @@ void main()
 //　つまりこれこそは擬態・カモフラージュの原点と言える＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまりこれこそは擬態・カモフラージュの原点と言える。",
-		   NULL, "Vamos chamá-lo de Vale Impossível Camuflado, se você quiser", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Vamos chamá-lo de Vale Impossível Camuflado, se você quiser.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4648,7 +4648,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300333", 256, TRUE);
 	OutputLine(NULL, "「富竹のおじさまだってなかなか隅に置けないって噂ですけどぉ？」",
-		   NULL, "\"Eu ouvi por aí que o Sr. Tomitake foi ele mesmo capturado, hmm\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Eu ouvi por aí que o Sr. Tomitake foi ele mesmo capturado, hmm?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
