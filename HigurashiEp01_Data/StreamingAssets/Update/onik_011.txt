@@ -447,7 +447,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300064", 256, TRUE);
 	OutputLine(NULL, "「…彼女が祟りにあったのか、オニカクシにあったのかはわかんないけどね……。」",
-		   NULL, "\"...mas eles não sabem se a mulher foi vítima da maldição ou se sofreu Onikakushi...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...mas eles não sabem se a mulher foi vítima da maldição ou se sofreu onikakushi...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4410,7 +4410,7 @@ void main()
 //　…俺はオヤシロさまの祟りを信じている＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…俺はオヤシロさまの祟りを信じている。",
-		   NULL, "...eu estava começando a acreditar nela.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Eu estava começando a acreditar nela.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
