@@ -942,7 +942,7 @@ void main()
 	OutputLine(NULL, "　む、あるとの答えが２人しか出なかったぞ？",
 		   NULL, "Hm, apenas duas pessoas disseram que tinham?", Line_WaitForInput);
 	OutputLine(NULL, "　ってことは…「レナ」「斧」「ラウンジ」のどれかひとつは…犯人、正解ということか？！",
-		   NULL, " Assim, isso significa que... entre \"Rena\", \"Machado\", e \"Saguão\", uma delas é a correta e parte do crime!?", Line_Normal);
+		   NULL, " Assim, isso significa que... entre \"Rena\", \"Machado\", e \"Lounge\", uma delas é a correta e parte do crime!?", Line_Normal);
 	ClearMessage();
 
 
@@ -2240,7 +2240,7 @@ void main()
 //　心臓がどきんと跳ね上がる＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　心臓がどきんと跳ね上がる。",
-		   NULL, "Meu coração comeceu a bater forte.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Meu coração começou a bater forte.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
