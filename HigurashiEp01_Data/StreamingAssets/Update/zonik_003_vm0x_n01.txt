@@ -127,7 +127,7 @@ void dialog010()
 		   NULL, "\"Parece que não podemos quebrar esse último feixe sem uma machadinha.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei05050", 256, TRUE);
 	OutputLine(NULL, "せっかく持ってきてくれたんだし。…明日借りるよ。",
-		   NULL, " Você a trouxe depois de tudo... Eu terei de pegá-la emprestada amanhã.", Line_Continue);
+		   NULL, " Você a trouxe depois de tudo... Eu terei de pegá-la emprestado amanhã.", Line_Continue);
 }
 
 void dialog011()
