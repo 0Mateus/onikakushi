@@ -280,7 +280,7 @@ void dialog010()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei06290", 256, TRUE);
 	OutputLine(NULL, "「鉈は鞘とかをかぶせて持って来い。",
-		   NULL, "\"Você deve cobrir a machadinha com uma bainha quando você está com ele em público.", Line_WaitForInput);
+		   NULL, "\"Você deve cobrir a machadinha com uma bainha quando você está com ela em público.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei06300", 256, TRUE);
 	OutputLine(NULL, "剥き身はさすがにまずいだろ！」",
 		   NULL, " Não é bom carregá-la abertamente assim!\"", GetGlobalFlag(GLinemodeSp));
