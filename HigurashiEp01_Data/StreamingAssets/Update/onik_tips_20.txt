@@ -18,7 +18,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　セブンスマートは市内にある、酒類食料品の安売量販店だ。",
-		   NULL, "O Seventh Mart era um supermercado de preços baratos com comida e álcool.", Line_Normal);
+		   NULL, "O SEVENTH MART era um supermercado de preços baratos com comida e álcool.", Line_Normal);
 	ClearMessage();
 
 	//VoiceMatching
@@ -798,14 +798,14 @@ void main()
 //　自分の目の前の状況を、まるで人の口がリンゴをかじって汁を啜り、リンゴであることを知るように.........脳がリンゴを食べ始める＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自分の目の前の状況を、まるで人の口がリンゴをかじって汁を啜り、リンゴであることを知るように………脳がリンゴを食べ始める。",
-		   NULL, "Assim como a boca de uma pessoa pode morder uma maçã, sorver o suco e finalmente descobrir que era uma maçã... minha mente começou a processar a cena diante dos meus olhos 'comendo a maçã.'", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A situação em frente aos meus olhos ... era como uma boca mordendo uma maçã e sorvendo o suco, da maneira que você faria com uma maçã... minha mente estava sendo comida.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　しゃりしゃりと咀嚼し始める...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しゃりしゃりと咀嚼し始める…。",
-		   NULL, "Ela começou a mastigar...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele começou a mastigar...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -813,7 +813,7 @@ void main()
 //　汁を啜り.........リンゴであることを知る￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　汁を啜り………リンゴであることを知る。",
-		   NULL, "Sorvendo os sucos... e descobrindo a maçã.", Line_Normal);
+		   NULL, "Sorvendo o suco... porque era como uma maçã.", Line_Normal);
 	ClearMessage();
 
 //　つまり......俺の目の前のそれは＠
