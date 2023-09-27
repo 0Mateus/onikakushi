@@ -49,7 +49,7 @@ void main()
 		   NULL, " Como foi?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200105", 256, TRUE);
 	OutputLine(NULL, "　ちょっぴりでもお楽しみいただけたなら幸いです。」",
-		   NULL, " Se você gostou, mesmo que só um pouquinho, isso nos deixa felizes.\"", Line_Normal);
+		   NULL, " Se você gostou, mesmo um pouquinho, isso nos deixa felizes.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -65,7 +65,7 @@ void main()
 		   NULL, "\"Mesmo que tenha sido só um pouquinho!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 4, "ps3/s20/04/440400128", 256, TRUE);
 	OutputLine(NULL, "　あんなすごいバッドエンドで終わられたら、ぷんぷんでございますのことよー？！」",
-		   NULL, " Aquele final incrivelmente sombrio deixou-me furiosa, você sabe?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Este final ruim deixou-me furiosa, você sabe?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -100,7 +100,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 4, "ps3/s20/04/440400129", 256, TRUE);
 	OutputLine(NULL, "「そのプロローグが…こんな凄まじいバッドエンドでございますのー？」",
-		   NULL, "\"Como o prólogo... poderia ter um final tão incrivelmente sombrio?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Como pode o prólogo... ter um final ruim?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -582,7 +582,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 8, "ps3/s20/08/440800073", 256, TRUE);
 	OutputLine(NULL, "「ははは、まぁそういう可能性もあるってことだよ。」",
-		   NULL, "\"Hahaha, bem, isso apenas significa que existe essa possibilidade.\"", Line_Normal);
+		   NULL, "\"Hahaha, bem, isso apenas quer dizer que essa possibilidade existe.\"", Line_Normal);
 	ClearMessage();
 
 //＜＜＜＜※富竹さん※
@@ -595,14 +595,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200129", 256, TRUE);
 	OutputLine(NULL, "「だとすると…犯人は複数で村ぐるみって言う、劇中の大石さんの推理は正しいのかな？",
-		   NULL, "\"Nesse caso... a teoria proposta por Ooishi-san durante a história, de que se tratava de uma conspiração dos moradores, estava correta?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Nesse caso... a teoria que Ooishi-san propôs durante a história, de que era uma conspiração feita pelos moradores da vila, estava correta?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200130", 256, TRUE);
 	OutputLine(NULL, "　当の本人の大石さんはどう思いますか？」",
-		   NULL, "O que o próprio tem a dizer sobre isso?\"", Line_Normal);
+		   NULL, "O que o próprio Ooishi tem a dizer sobre isso?\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	FadeBustshotWithFiltering( 2, "left", 1, FALSE, 0, 0, 300, TRUE );
@@ -1531,7 +1531,7 @@ void main()
 	OutputLine(NULL, "うん。",
 		   NULL, " Sim.", Line_WaitForInput);
 	OutputLine(NULL, "人間派がとっても多かったの！」",
-		   NULL, " Havia muito mais jogadores que acreditavam na explicação das 'pessoas'!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " A maioria dos jogadores acreditavam na explicação das 'pessoas'!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1742,7 +1742,7 @@ void main()
 		   NULL, "\"Ah, desculpe sobre isso, Keiichi-kun.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200165", 256, TRUE);
 	OutputLine(NULL, "…今回のシナリオでね、",
-		   NULL, " De qualquer forma, durante o capítulo atual,", Line_WaitForInput);
+		   NULL, " De qualquer modo, durante o capítulo corrente,", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200166", 256, TRUE);
 	OutputLine(NULL, "圭一くん、",
 		   NULL, " Keiichi-kun,", Line_WaitForInput);

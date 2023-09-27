@@ -170,6 +170,6 @@ void dialog006()
 {
 	ModPlayVoiceLS(3, 1, "ps3/s20/01/440100201", 256, TRUE);
 	OutputLine(NULL, "　これはなにかの嫌がらせかーー！！！！」",
-		   NULL, " Everybody's just picking on me!!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Todos estão atrás de mim!!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
