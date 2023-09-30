@@ -1563,7 +1563,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "　機を逸したか…ッ！！！！」",
-		   NULL, " eu perdi minha chance...!\"", Line_Normal);
+		   NULL, " Eu perdi minha chance...!\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -4794,7 +4794,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 8, "ps3/s19/08/990800044", 256, TRUE);
 	OutputLine(NULL, "「じゃあお二人とも。お祭りでまた会おうね。」",
-		   NULL, "\"Parecia que ele tinha sido derrotado por Mion.\"", Line_Normal);
+		   NULL, "\"Agora, então. Eu vejo vocês dois no festival.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

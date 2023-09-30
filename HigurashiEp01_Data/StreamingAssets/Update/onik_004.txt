@@ -4224,7 +4224,7 @@ void main()
 //　取り合えずは意地悪そうに笑い保留しておくことにした￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　取り合えずは意地悪そうに笑い保留しておくことにした。",
-		   NULL, "Por agora, eu só segurava minha risada maligna", Line_Normal);
+		   NULL, "Por agora, eu só segurava minha risada maligna.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
