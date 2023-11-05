@@ -798,7 +798,7 @@ void main()
 //　自分の目の前の状況を、まるで人の口がリンゴをかじって汁を啜り、リンゴであることを知るように.........脳がリンゴを食べ始める＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自分の目の前の状況を、まるで人の口がリンゴをかじって汁を啜り、リンゴであることを知るように………脳がリンゴを食べ始める。",
-		   NULL, "A situação em frente aos meus olhos ... era como uma boca mordendo uma maçã e sorvendo o suco, da maneira que você faria com uma maçã... minha mente estava sendo comida.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A situação em frente aos meus olhos... era como uma boca mordendo uma maçã e sorvendo o suco, da maneira que você faria com uma maçã... minha mente estava sendo comida.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

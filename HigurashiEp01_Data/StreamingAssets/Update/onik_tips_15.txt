@@ -171,7 +171,7 @@ void main()
 //　興宮署昭和５７年第Ｘ号
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　興宮署昭和５７年第Ｘ号",
-		   NULL, "Delegacia de Okinomiya, Showa 57:", Line_ContinueAfterTyping);
+		   NULL, "Delegacia de Okinomiya, Showa 57 (1982) caso número X:", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -205,7 +205,7 @@ void main()
 //　興宮署昭和５４年第Ｘ号
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　興宮署昭和５４年第Ｘ号",
-		   NULL, "Delegacia de Okinomiya, Showa 54 (1979:", Line_ContinueAfterTyping);
+		   NULL, "Delegacia de Okinomiya, Showa 54 (1979) caso número X:", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));

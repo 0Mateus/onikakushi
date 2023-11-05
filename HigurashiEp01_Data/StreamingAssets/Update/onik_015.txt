@@ -219,7 +219,7 @@ void main()
 	OutputLine(NULL, "　でもそれは大石さんだけじゃない。",
 		   NULL, "Nem ele...", Line_WaitForInput);
 	OutputLine(NULL, "…両親だって同じことだ。",
-		   NULL, " nem meu pais.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " nem meus pais.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -3275,7 +3275,7 @@ void main()
 
 //	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 //	OutputLine(NULL, "「嘘だッ！！！！！！！」",
-//		   NULL, "\"LIES!!!!!!\"", Line_Normal);
+//		   NULL, "\"É MENTIRA!!!!!!\"", Line_Normal);
 //	ClearMessage();
 
 	FadeFilm( 400, FALSE );

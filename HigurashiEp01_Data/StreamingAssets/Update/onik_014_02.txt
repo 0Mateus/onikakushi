@@ -1602,7 +1602,7 @@ void main()
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "あ、あとは新聞受けだ！！",
-		   NULL, " Ah, eu precisava de um jornal!! ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ah, eu preciso pegar o jornal!! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　新聞はいつもお袋が持ってきてる。昼に出発したということは…夕刊が入りっ放しだ！！",
 		   NULL, "Minha mãe sempre pegava o jornal. Desde que eles haviam saído de tarde... o jornal ainda estava lá!!", Line_Normal);
@@ -5634,7 +5634,7 @@ void main()
 //　ここ雛見沢で......ヤツらを出し抜くなんて......できやしないのだ......！！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ここ雛見沢で……ヤツらを出し抜くなんて……できやしないのだ……！！！",
-		   NULL, "Em Hinimizawa... era impossível... enganar 'elas'...!", Line_Normal);
+		   NULL, "Em Hinamizawa... era impossível... enganar 'elas'...!", Line_Normal);
 	ClearMessage();
 
 //　俺は扉越しとは言え、少しでもレナから離れたかった＠
@@ -6072,7 +6072,7 @@ void main()
 //　言葉の裏には、証拠がなければ俺を助けられないんですか＠　というトゲも含めた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　言葉の裏には、証拠がなければ俺を助けられないんですか？",
-		   NULL, "O que eu queria dizer era: 'Você não pode vir e me salvar sem provas?", Line_WaitForInput);
+		   NULL, "O que eu queria dizer era: você não pode vir e me salvar sem provas?", Line_WaitForInput);
 	OutputLine(NULL, "　というトゲも含めた。",
 		   NULL, " Eu estaquei esta farpa lá.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

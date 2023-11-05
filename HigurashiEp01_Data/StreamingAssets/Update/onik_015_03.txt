@@ -944,7 +944,7 @@ void main()
 	SetSpeedOfMessage( FALSE, 0, );
 
 	OutputLine(NULL, "、ひょっとして…、",
-		   NULL, " 		   NULL, " talvez...", Line_ContinueAfterTyping);...", Line_Continue);
+		   NULL, " talvez...", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );

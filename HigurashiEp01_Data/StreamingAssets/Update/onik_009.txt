@@ -2028,7 +2028,7 @@ void main()
 //　忘れたのかよ魅音も沙都子も＠……梨花ちゃんがその気になりゃあ……￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　忘れたのかよ魅音も沙都子も。",
-		   NULL, "Você e Satoko, ambas esqueceram", Line_WaitForInput);
+		   NULL, "Você e Satoko, ambas esqueceram?", Line_WaitForInput);
 	OutputLine(NULL, "……梨花ちゃんがその気になりゃあ……。",
 		   NULL, " ...Se Rika-chan quisesse, ela poderia simplesmente...", Line_Normal);
 	ClearMessage();
@@ -2272,7 +2272,7 @@ void main()
 //　完全にかぁいいモードに浸かり込んだレナをなでなでしながら、梨花ちゃんが不敵に俺に振りかえる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　完全にかぁいいモードに浸かり込んだレナをなでなでしながら、梨花ちゃんが不敵に俺に振りかえる。",
-		   NULL, "Rika-chan voltou seu olhar intimidador para mim enquanto era cuidada por Rena, que estava em total Modo mEiGU", Line_Normal);
+		   NULL, "Rika-chan voltou seu olhar intimidador para mim enquanto era cuidada por Rena, que estava em total Modo mEiGU.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

@@ -1753,7 +1753,7 @@ void main()
 //　犯人が村まるごとでなかったにせよ、数人の犯人の「狩り」を村人たちが「布団を被って見殺しにした」ことは十分に考えられる……？？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　犯人が村まるごとでなかったにせよ、数人の犯人の「狩り」を村人たちが「布団を被って見殺しにした」ことは十分に考えられる……？？？",
-		   NULL, "Mesmo se não fosse toda a vila... era concebível que os moradores estivessem \"escondendo-se sobre as cobertas e deixando eles morrerem\" quando havia um grupo que estava fazendo uma \"caçada,\" não é...???", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mesmo se não fosse toda a vila... era concebível que os moradores estivessem \"escondendo-se sobre as cobertas e deixando eles morrerem\" quando havia um grupo que estava fazendo uma 'caçada,' não é...???", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

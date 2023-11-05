@@ -1311,7 +1311,7 @@ void main()
 		   NULL, "\"Dois para a teoria das 'pessoas' então.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700365", 256, TRUE);
 	OutputLine(NULL, "竜宮さんは祟り派でしたよね？」",
-		   NULL, " Rena-san estava no lado da 'maldição', certo?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ryuugu-san estava no lado da 'maldição', certo?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

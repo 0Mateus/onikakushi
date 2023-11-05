@@ -1541,7 +1541,7 @@ void main()
 //　その中に混じって、沙都子と梨花ちゃんの姿もあった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その中に混じって、沙都子と梨花ちゃんの姿もあった。",
-		   NULL, "Entra elas eu podia discernir Rika-chan e Satoko.", Line_Normal);
+		   NULL, "Entre elas eu podia discernir Rika-chan e Satoko.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	PlaySE( 4, "wa_020", 56, 64 );

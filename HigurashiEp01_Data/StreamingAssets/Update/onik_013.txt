@@ -2212,7 +2212,7 @@ void main()
 //　それはオヤシロさまの祟りが実在することを受け入れること以上に苦痛で困難なものだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それはオヤシロさまの祟りが実在することを受け入れること以上に苦痛で困難なものだ。",
-		   NULL, "Isso era muito mais doloroso e problemático do que aceitar apenas como a maldição de Oyashiro.", Line_Normal);
+		   NULL, "Isso era muito mais doloroso e problemático do que aceitar apenas como a maldição de Oyashiro-sama.", Line_Normal);
 	ClearMessage();
 
 //　だがそのレナは蛮行の後、病院で医師に、オヤシロさまに取り憑かれていたからだと告白した＠
@@ -2835,7 +2835,7 @@ void main()
 //　…俺を完全な方法で「消し去る」までの!s100………!sd!w1000時間稼ぎ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…俺を完全な方法で「消し去る」までの………",
-		   NULL, "...Até que elas tivessem um método seguro para me \"apagar\"...", Line_ContinueAfterTyping);
+		   NULL, "...Até que elas tivessem um método seguro para me 'apagar'...", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
@@ -4614,7 +4614,7 @@ void main()
 //　心配をかけて申し訳ないが、今は俺の部屋の「時計」を意識さえしてくれればいい＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　心配をかけて申し訳ないが、今は俺の部屋の「時計」を意識さえしてくれればいい。",
-		   NULL, "Eu me senti mal por preocupá-los, mas no momento eu apenas queria que eles pensassem no \"relógio\" em meu quarto.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu me senti mal por preocupá-los, mas no momento eu apenas queria que eles pensassem no 'relógio' em meu quarto.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
