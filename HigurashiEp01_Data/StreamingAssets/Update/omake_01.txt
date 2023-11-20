@@ -851,7 +851,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700354", 256, TRUE);
 	OutputLine(NULL, "「劇中で前原さんが言うように、オヤシロさまが竜宮さんや園崎さんに乗り移って悪さをしている…って考えると",
-		   NULL, "\"Se, como Maebara-san disse durante a história, foi o caso de que Oyashiro-sama possuiu Rena-san e Sonozaki-san e cometeu esses atos... ", Line_WaitForInput);
+		   NULL, "\"Se, como Maebara-san disse durante a história, foi o caso de que Oyashiro-sama possuiu Ryuugu-san e Sonozaki-san e cometeu esses atos... ", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700355", 256, TRUE);
 	OutputLine(NULL, "……一番つじつまが合うんです。",
 		   NULL, "Isso se encaixaria muito bem.", Line_WaitForInput);
@@ -967,7 +967,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700357", 256, TRUE);
 	OutputLine(NULL, "「つまり、竜宮さんも園崎さんも、実は本当にああいう性格で、引っ越してきたばかりの前原さんを騙している悪魔なんだ、と。",
-		   NULL, "\"Em outras palavras, Rena-san e Sonozaki-san ambas realmente tinham aquelas personalidades, para começar, e estavam apenas enganando Maebara-san...", Line_WaitForInput);
+		   NULL, "\"Em outras palavras, Ryuugu-san e Sonozaki-san ambas realmente tinham aquelas personalidades, para começar, e estavam apenas enganando Maebara-san...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700358", 256, TRUE);
 	OutputLine(NULL, "…こういうわけですか？」",
 		   NULL, " Estou certo?\"", GetGlobalFlag(GLinemodeSp));
