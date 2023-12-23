@@ -121,7 +121,7 @@ void dialog002()
 		   NULL, "\"Bem, não se pode culpá-lo.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700337", 256, TRUE);
 	OutputLine(NULL, "前原さんの台詞だけで普通のアドベンチャーゲームなら全員分の量がありますからね〜。",
-		   NULL, "Maebara-san tem falas o suficiente para cobrir o elenco completo de uma visual novel comum, você vê~", Line_WaitForInput);
+		   NULL, "Maebara-san tem falas o suficiente para cobrir o elenco completo de uma novel comum, você vê~", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s20/11/440700338", 256, TRUE);
 	OutputLine(NULL, "んっふっふっふ！」",
 		   NULL, " hehehehe!\"", Line_Normal);
