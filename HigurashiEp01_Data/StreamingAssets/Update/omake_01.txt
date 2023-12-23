@@ -41,7 +41,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200103", 256, TRUE);
 	OutputLine(NULL, "「この度は当サークル、０７ｔｈ　Ｅｘｐａｎｓｉｏｎのノベルゲーム、",
-		   NULL, "\"Obrigada por comprar Higurashi When They Cry ~Onikakushi~,", Line_Continue);
+		   NULL, "\"Obrigada por comprar Higurashi no Naku Koro ni ~Onikakushi~,", Line_Continue);
 	OutputLine(NULL, "ひぐらしのなく頃に〜鬼隠し編〜をお買い上げ下さいまして、誠にありがとうございました！",
 		   NULL, " uma visual novel por 07th Expansion!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200104", 256, TRUE);
@@ -1880,7 +1880,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200173", 256, TRUE);
 	OutputLine(NULL, "「それでは引き続き、「ひぐらしのなく頃に粋」をお楽しみ下さいね！」",
-		   NULL, "\"Então, por favor, aguarde o próximo lançamento, 'Higurashi When They Cry ~Watanagashi~'!\"", Line_Normal);
+		   NULL, "\"Então, por favor, aguarde o próximo lançamento, 'Higurashi no Naku Koro ni ~Watanagashi~'!\"", Line_Normal);
 	ClearMessage();
 
 
