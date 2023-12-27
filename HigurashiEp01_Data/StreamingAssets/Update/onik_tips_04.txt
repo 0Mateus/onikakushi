@@ -27,7 +27,7 @@ void main()
 //　鹿骨市興宮署はＸＸ日深夜＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鹿骨市興宮署はＸＸ日深夜、",
-		   NULL, "A cidade de Shishibone delegacia de polícia de Okinomiya, XX de junho, tarde da noite.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Delegacia de polícia de Okinomiya da cidade de Shishibone, XX de junho, tarde da noite.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
