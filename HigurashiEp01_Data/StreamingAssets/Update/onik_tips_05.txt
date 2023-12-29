@@ -79,7 +79,7 @@ void main()
 //　この天恵豊かで住みよい郷土を、血と汗をもって築いてくれた父祖幾百年の艱難辛苦を思えば余りに痛ましいことであり＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この天恵豊かで住みよい郷土を、血と汗をもって築いてくれた父祖幾百年の艱難辛苦を思えば余りに痛ましいことであり、",
-		   NULL, "Abandonar a terra onde nosso ancestrais derramaram seu sangue e suor, uma terra rica em recursos férteis, é muito doloroso de suportar.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Abandonar a terra onde nossos ancestrais derramaram seu sangue e suor, uma terra rica em recursos férteis, é muito doloroso de suportar.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
