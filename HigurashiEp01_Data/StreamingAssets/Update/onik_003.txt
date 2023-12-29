@@ -54,7 +54,7 @@ void main()
 		   NULL, "\"Provavelmente é melhor ouvir isso de Rena, não acha?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300133", 256, TRUE);
 	OutputLine(NULL, "　どーせ「だってかぁいいんだもん☆」しか言わないだろうけどさ。」",
-		   NULL, " Ela provavelmente vai dizer, \"porque é simplesmente tão mEiGU☆\" de qualquer modo.\"", Line_Normal);
+		   NULL, " Ela provavelmente vai dizer, 'porque é simplesmente tão mEiGU☆' de qualquer modo.\"", Line_Normal);
 	ClearMessage();
 
 
@@ -4505,7 +4505,7 @@ void main()
 //"雛見沢ダムで悪夢の惨劇！　リンチ・バラバラ殺人！"@
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "“雛見沢ダムで悪夢の惨劇！　リンチ・バラバラ殺人！”",
-		   NULL, "\"Um Pesadelo Trágico no local de construção da represa de Hinamizawa! Linchamento e Assassinato/Desmembramento!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Um Pesadelo Trágico no local de construção da Represa de Hinamizawa! Linchamento e Assassinato/Desmembramento!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
