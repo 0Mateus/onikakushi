@@ -1960,7 +1960,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……これで",
-		   NULL, " ...isso foi...", Line_Continue);
+		   NULL, " ...Isso foi...", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 500 );
@@ -3556,7 +3556,7 @@ void main()
 		   NULL, "\"...Rika-chan... Vou levar para casa... Vou levar para casa...☆", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200363", 256, TRUE);
 	OutputLine(NULL, "　…ちょ…ちょっとだけだよ☆…ヘ、ヘンなことはしないんだよ…しないんだよ……☆」",
-		   NULL, " ...Então... Só um pouquinho☆ E-Eu não vou fazer nada estranho... nada estranho...☆\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Então... Só um pouquinho.☆ E-Eu não vou fazer nada estranho... nada estranho...☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

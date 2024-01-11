@@ -6841,7 +6841,7 @@ void main()
 //　…何だろう＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…何だろう？",
-		   NULL, "...Para o quê.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Para o quê?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

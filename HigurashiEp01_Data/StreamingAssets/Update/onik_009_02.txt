@@ -333,7 +333,7 @@ void main()
 //　だが、いざ何でも聞いてくれと言われるとなかなか考えがまとまらない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、いざ何でも聞いてくれと言われるとなかなか考えがまとまらない。",
-		   NULL, "No entanto, era difícil pensar no que perguntar quando alguém dizia \"Pergunte-me qualquer coisa,\".", GetGlobalFlag(GLinemodeSp));
+		   NULL, "No entanto, era difícil pensar no que perguntar quando alguém dizia \"Pergunte-me qualquer coisa\".", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
