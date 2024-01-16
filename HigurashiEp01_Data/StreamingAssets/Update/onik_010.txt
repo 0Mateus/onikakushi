@@ -2915,7 +2915,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>中年男</color>", NULL, "<color=#f5e6d3>Homem de Meia-Idade</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700055", 256, TRUE);
 	OutputLine(NULL, "「死亡推定時刻は２１時から２３時頃のようです。",
-		   NULL, "\"O momento da morte parece ter sido entre as 21 horas e 23 horas.", Line_WaitForInput);
+		   NULL, "\"O momento da morte parece ter sido entre as 21 e 23 horas.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 11, "ps3/s01/11/120700056", 256, TRUE);
 	OutputLine(NULL, "つまり…お祭りで前原さんが富竹さんとお話して別れてからすぐの出来事なんですよ。」",
 		   NULL, " Significando que... Ocorreu justamente depois de você conversar com Tomitake-san no festival.\"", GetGlobalFlag(GLinemodeSp));
