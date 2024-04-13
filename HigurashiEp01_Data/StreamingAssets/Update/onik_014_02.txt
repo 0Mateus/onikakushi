@@ -3346,7 +3346,7 @@ void main()
 		   NULL, "\"...", Line_Continue);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200263", 256, TRUE);
 	OutputLine(NULL, "なら、…仕方ないかな。」",
-		   NULL, " Então... isso não pode ser mudado, eu acho.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Então... isso não pode ser mudado, eu acho.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4907,7 +4907,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200317", 256, TRUE);
 	OutputLine(NULL, "「圭一くんがいろんなラーメン選んでるとこ、後ろからずっと見てたの。",
-		   NULL, "\"Quando Keiichi estava escolhendo o ramen, eu estava observando ele o tempo inteiro.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Quando Keiichi-kun estava escolhendo o ramen, eu estava observando ele o tempo inteiro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

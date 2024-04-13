@@ -899,7 +899,7 @@ void main()
 		   NULL, "\"Bem, não é nada importante...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300151", 256, TRUE);
 	OutputLine(NULL, "…お疲れのようなら後にするけど？」",
-		   NULL, " Se você está cansado, eu posso pedir novamente mais tarde?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Se você está cansado, eu posso pedir novamente mais tarde.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

@@ -7,8 +7,8 @@ void dialog000()
 //「…県立大島が強いらしいよ＠左腕の亀田くんがすごいんだって＠…頑張ってね！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300137", 256, TRUE);
-	OutputLine(NULL, "「…野球部の強い高校、教えよっか？",
-		   NULL, "\"...Quer que eu lhe diga quais são as melhores escolas de ensino médio para beisebol?", Line_WaitForInput);
+	OutputLine(NULL, "…野球部の強い高校、教えよっか？",
+		   NULL, "...Quer que eu lhe diga quais são as melhores escolas de ensino médio para beisebol?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300138", 256, TRUE);
 	OutputLine(NULL, "そこにいる左腕の、亀田くんがすごいピッチャーなんだけどさ。",
 		   NULL, " Está vendo o Kameda-kun ali? Ele é um canhoto e um arremessador incrível.", Line_WaitForInput);

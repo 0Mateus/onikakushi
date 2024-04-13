@@ -1490,8 +1490,8 @@ void main()
 
 //　痕跡に血液反応が出なかったことから、犯行以前に破壊したものと推定。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　痕跡に血液反応が出なかったことから、犯行以前に破壊したものと推定。",
-		   NULL, " Não havendo vestígios de sangue, acredita-se que a destruição ocorreu antes dos assassinatos.", Line_ContinueAfterTyping);
+	OutputLine(NULL, "痕跡に血液反応が出なかったことから、犯行以前に破壊したものと推定。",
+		   NULL, "Não havendo vestígios de sangue, acredita-se que a destruição ocorreu antes dos assassinatos.", Line_ContinueAfterTyping);
 
 
 	FadeOutBGM( 2, 10, TRUE );

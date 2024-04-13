@@ -3666,7 +3666,7 @@ void main()
 //　......その死は警察が確認しているはずでは...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……その死は警察が確認しているはずでは…？",
-		   NULL, "...Será que a polícia tinha confirmado sua morte...?", Line_Normal);
+		   NULL, "...A polícia já deve ter confirmado sua morte...", Line_Normal);
 	ClearMessage();
 
 //　でもレナと魅音は確かに、監督を呼んだと言った＠

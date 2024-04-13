@@ -360,7 +360,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/500200786", 256, TRUE);
 	OutputLine(NULL, "「はぅ！……はいおばさま〜〜〜！",
-		   NULL, "\"Hao!... Sim, Senhora~~~!", Line_WaitForInput);
+		   NULL, "\"Hau!... Sim, Senhora~~~!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/500200787", 256, TRUE);
 	OutputLine(NULL, "　圭一くんはレナが命に替えましても〜☆」",
 		   NULL, " Mesmo que eu tenha de sacrificar a mim mesma por Keiichi-kun~.☆\"", GetGlobalFlag(GLinemodeSp));
@@ -1688,7 +1688,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 5, "ps3/s19/05/500500289", 256, TRUE);
 	OutputLine(NULL, "「…もう見つけてありますです。…圭一もですね？」",
-		   NULL, "\"...Nós já encontramos. ...Keiichi, também?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...Eu já encontrei. ...Keiichi, também?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2539,7 +2539,7 @@ void main()
 		   NULL, "\"Hein!?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/500200835", 256, TRUE);
 	OutputLine(NULL, "　……はぅ、なんだ魅ぃちゃんかぁ……はぅ…。」",
-		   NULL, " ...Hao, oh é Mii-chan... hau...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Hau, oh é Mii-chan... hau...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2640,10 +2640,10 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "オットセイ、」",
-		   NULL, " lobo marinho do Keiichi-kun.\"", Line_Continue);
+		   NULL, " lobo marinho do Keiichi-kun.\"", Line_ContinueAfterTyping);
 
 	// (backup) SetValidityOfInput( FALSE );
-	Wait( 1000 );
+	Wait( 300 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	ClearMessage();
@@ -2690,7 +2690,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "　えぇ？！",
-		   NULL, " Haoh!?", Line_Continue);
+		   NULL, " Hauu!?", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 200 );
@@ -6427,7 +6427,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/500300769", 256, TRUE);
 	OutputLine(NULL, "「はぅ〜、の「は」と「ぅ」の間くらいだったか…",
-		   NULL, "\"Entre o 'ha' e o 'o' do hau~ eu...", Line_Continue);
+		   NULL, "\"Entre o 'ha' e o 'u' do hau~ eu...", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 300 );

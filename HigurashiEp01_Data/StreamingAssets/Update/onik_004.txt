@@ -1868,7 +1868,7 @@ void main()
 		   NULL, " ...O que é? O que é!?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200247", 256, TRUE);
 	OutputLine(NULL, "　…えぇ…？！」",
-		   NULL, " ...Haoh...!?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Hauu...!?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

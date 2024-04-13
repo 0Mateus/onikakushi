@@ -416,7 +416,7 @@ void main()
 		   NULL, " Keiichi-kun e Mii-chan são um magistrado maligno e...?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200037", 256, TRUE);
 	OutputLine(NULL, "　越後屋だよ？！」",
-		   NULL, " um trapaceiro!?\"", Line_Normal);
+		   NULL, " Um trapaceiro!?\"", Line_Normal);
 	ClearMessage();
 
 //「おのれ竜宮レナの助＠　ここで会ったが百年目でおじゃる＠いざ覚悟～！！＠

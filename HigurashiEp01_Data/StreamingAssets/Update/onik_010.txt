@@ -1811,7 +1811,7 @@ void main()
 //　その中を、暑そうに小脇にジャケットを抱え、だらしなくネクタイを緩めた中年のおっさんが待ち受けていた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その中を、暑そうに小脇にジャケットを抱え、だらしなくネクタイを緩めた中年のおっさんが待ち受けていた。",
-		   NULL, "Esperando ali, com um olhar desconfortavelmente quente, estava um homem de meia-idade, sua gravata desleixadamente afrouxada, e seu paletó dobrado sob seu braço.", Line_Normal);
+		   NULL, "Esperando ali, com um olhar desconfortavelmente quente, estava um homem de meia-idade, sua gravata desleixadamente afrouxada, e seu paletó dobrado sob seu braço...", Line_Normal);
 	ClearMessage();
 
 

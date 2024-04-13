@@ -2063,8 +2063,8 @@ void main()
 	OutputLine(NULL, "「じゃあまぁ、頑張って県大会を目指してちょうだいよ。",
 		   NULL, "\"Bem, então, espero que você consiga participar das regionais, pelo menos.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300136", 256, TRUE);
-	OutputLine(NULL, "おじさん、応援してるわ。」",
-		   NULL, " Oji-san vai torcer por você.\"", GetGlobalFlag(GLinemodeSp));
+	OutputLine(NULL, "おじさん、応援してるわ。",
+		   NULL, " Oji-san vai torcer por você.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //	DisableWindow();

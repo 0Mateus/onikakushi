@@ -118,7 +118,7 @@ void main()
 //　まさか、俺よりちょっとでも誕生日が早かったら威張ろうってつもりじゃないだろうな...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　まさか、俺よりちょっとでも誕生日が早かったら威張ろうってつもりじゃないだろうな…。",
-		   NULL, "Ela não está planejando ser grande e poderosa, se o aniversário dela for um pouquinho mais cedo do que o meu, ela está...", Line_Normal);
+		   NULL, "Ela não está planejando ser grande e poderosa, se o aniversário dela for um pouquinho mais cedo do que o meu, ela está...?", Line_Normal);
 	ClearMessage();
 
 //「...ふ＠　だが諦めろ＠俺に誕生日で挑もうったって無駄なことだ！＠　......何ならひと月差ごとに１００円の賭けをしてもいいぜー！＠
@@ -131,10 +131,10 @@ void main()
 		   NULL, " Não mesmo.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "org/keiichi0902", 256, TRUE);
 	OutputLine(NULL, "俺に誕生日で挑もうったって無駄なことだ！！",
-		   NULL, " É impossível mudar meu aniversário!!", Line_WaitForInput);
+		   NULL, " É impossível desafiar meu aniversário!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "org/keiichi0903", 256, TRUE);
 	OutputLine(NULL, "　……何ならひと月差ごとに１００円の賭けをしてもいいぜー！」",
-		   NULL, " ... Eu nem mesmo me importo se você apostar um dólar todo mês!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... Eu nem mesmo me importaria se você apostasse cem ienes por mês!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -255,7 +255,8 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s20/01/440100009", 256, TRUE);
 	OutputLine(NULL, "「……そう言えば…、魅音って上級生なんだよなぁ。」",
-		   NULL, "\"... Agora que você mencionou isso... você está numa série acima, certo Mion?\"", GetGlobalFlag(GLinemodeSp));
+		   //NULL, "\"... ... Agora que você mencionou isso... você está numa série acima, certo Mion??\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"... Agora que você mencionou isso... você é nossa sênior, certo Mion?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -266,7 +267,8 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300004", 256, TRUE);
 	OutputLine(NULL, "「下級生の方が萌えるってんなら、今日から下級生ってことでもいいけどー？」",
-		   NULL, "\"Se você está numa classe baixa de homens, então eu posso ser um homem de classe baixa de agora em diante!\"", GetGlobalFlag(GLinemodeSp));
+		   //NULL, "\"Se você está numa classe baixa de homens, então eu posso ser um homem de classe baixa de agora em diante!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Se você prefere juniores, então eu posso ser uma de agora em diante!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -292,7 +294,8 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s20/01/440100010", 256, TRUE);
 	OutputLine(NULL, "「んで、沙都子と梨花ちゃんが下級生と。",
-		   NULL, "\"Então Satoko e Rika-chan são homens de classe baixa.", Line_Continue);
+		   //NULL, "\"Então Satoko e Rika-chan são homens de classe baixa.", Line_Continue);
+		   NULL, "\"Então Satoko e Rika-chan são nossas juniores.", Line_Continue);
 	Wait( 2000 );
 	OutputLine(NULL, "……どころか学校が違うくらいの下級生だよな？」",
 		   NULL, " ... Suas séries são tão baixas que deveriam estar em outra escola, não?\"", GetGlobalFlag(GLinemodeSp));
