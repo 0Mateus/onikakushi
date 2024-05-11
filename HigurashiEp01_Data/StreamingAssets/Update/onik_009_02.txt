@@ -1633,14 +1633,14 @@ void main()
 		   NULL, " Todos, exceto um dos autores do crime, foram presos.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800060", 256, TRUE);
 	OutputLine(NULL, "残った１人だって時間の問題さ。",
-		   NULL, " É somente uma questão do tempo até encontrarem o último.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " É somente uma questão do tempo até encontrarem o último. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800061", 256, TRUE);
 	OutputLine(NULL, "動機だって、酒の上での口論からと判明してる。",
-		   NULL, " O motivo deles é que todos estavam embriagados. ", Line_WaitForInput);
+		   NULL, "O motivo deles é que todos estavam embriagados.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800062", 256, TRUE);
 	OutputLine(NULL, "祟りなんかじゃない。",
-		   NULL, "Não existe maldição.", Line_WaitForInput);
+		   NULL, " Não existe maldição.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 8, "ps3/s01/08/120800063", 256, TRUE);
 	OutputLine(NULL, "……だろ？」",
 		   NULL, " ...Você não concorda?\"", GetGlobalFlag(GLinemodeSp));
