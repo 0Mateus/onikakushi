@@ -2317,7 +2317,7 @@ void main()
 //　…そういうのは几帳面な人や神経質な人がかかると聞いたことがある＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…そういうのは几帳面な人や神経質な人がかかると聞いたことがある。",
-		   NULL, "... Eu ouvi falar que isso acontece com pessoas que são realmente metódicas ou excessivamente sensíveis.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Eu ouvi falar que isso acontece com pessoas que são realmente metódicas ou excessivamente sensíveis.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

@@ -391,7 +391,7 @@ void main()
 //　...わからん￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…わからん。",
-		   NULL, "... Eu não entendo.", Line_Normal);
+		   NULL, "...Eu não entendo.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

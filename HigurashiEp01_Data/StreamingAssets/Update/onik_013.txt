@@ -3470,7 +3470,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 5, "ps3/s01/05/120500028", 256, TRUE);
 	OutputLine(NULL, "「………圭一、具合悪そうです。",
-		   NULL, "\"... Keiichi não parece estar bem.", Line_WaitForInput);
+		   NULL, "\"...Keiichi não parece estar bem.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 5, "ps3/s01/05/120500029", 256, TRUE);
 	OutputLine(NULL, "………かわいそかわいそですよ。」",
 		   NULL, " ...Coitadinho dele.\"", GetGlobalFlag(GLinemodeSp));
@@ -4387,7 +4387,8 @@ void main()
 //　……新しい事実が判った時、書き足せばいいだろう￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……新しい事実が判った時、書き足せばいいだろう。",
-		   NULL, "... Eu só precisava acrescentar como eu aprendi mais sobre a verdade.", Line_Normal);
+		   //NULL, "...Eu só precisava acrescentar como eu aprendi mais sobre a verdade.", Line_Normal);
+		   NULL, "...Eu só precisaria acrescentar mais conforme eu descobrisse mais sobre a verdade.", Line_Normal);
 	ClearMessage();
 
 //　俺はそのメモを畳み、どこに隠したものか思案する＠
