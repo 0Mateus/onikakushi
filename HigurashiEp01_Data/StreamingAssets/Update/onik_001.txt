@@ -2992,7 +2992,7 @@ void main()
 //　レナと魅音が互いに机を向かい合わせにくっつける＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナと魅音が互いに机を向かい合わせにくっつける。",
-		   NULL, "Rena e Mion tinham empurrado suas classes juntas, assim uma estava de frente à outra.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Rena e Mion tinham empurrado suas mesas juntas, assim uma estava de frente à outra.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3000,7 +3000,7 @@ void main()
 //　そこに沙都子と梨花ちゃんが自分たちの机をよたよたと運んでくる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そこに沙都子と梨花ちゃんが自分たちの机をよたよたと運んでくる。",
-		   NULL, "Ao mesmo tempo, Satoko e Rika-chan estavam lentamente arrastando suas classes também.", Line_Normal);
+		   NULL, "Ao mesmo tempo, Satoko e Rika-chan estavam lentamente arrastando suas mesas também.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacterWithFiltering(3, 2, "sprite/re1b_warai_b1_", "2", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
@@ -3842,7 +3842,7 @@ void main()
 		   NULL, "\"Rena, Rena~!", Line_Continue);
 	Wait( 1000 );
 	OutputLine(NULL, "　魅音さんがいじめるんですのー！",
-		   NULL, " MiiMii está me provocando-!", Line_WaitForInput);
+		   NULL, " Mion-san está me provocando-!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 4, "ps3/s19/04/990400031", 256, TRUE);
 	OutputLine(NULL, "　わあぁあぁああん！！」",
 		   NULL, " Uaaaaah!!\"", GetGlobalFlag(GLinemodeSp));
