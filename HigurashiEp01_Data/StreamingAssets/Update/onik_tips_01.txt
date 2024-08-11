@@ -185,7 +185,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300002", 256, TRUE);
 	OutputLine(NULL, "「ってことは圭ちゃん、ひょっとして４月生まれ？」",
-		   NULL, "\"Assim, isso significa que você nasceu em Abril, Kei-chan?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Assim, isso significa que você nasceu em abril, Kei-chan?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
