@@ -4754,7 +4754,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei01260", 256, TRUE);
 	OutputLine(NULL, "「挫けるなよ魅音。レナのジャブを見切れるのはお前しかいない！」",
-		   NULL, "\"Não sinta-se mal, Mion. Você é provavelmente a única que pode se desviar de seus jabs!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Não sinta-se mal, Mion. Você é provavelmente a única que pode desviar de seus jabs!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
