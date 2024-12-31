@@ -6,7 +6,7 @@ void OpeningQuestion()
 {
 	if (GetGlobalFlag(GVideoOpening) == 0) {
 		OutputLine(NULL, "オープニング動画は多少のネタバレ要素を含んでいますが、再生を有効にしますか？",
-			   NULL, "O vídeo de abertura contém alguns spoilers. Deseja ativá-lo mesmo assim?", Line_Normal);
+			   NULL, "O vídeo de abertura pode conter alguns spoilers. Deseja ativá-lo mesmo assim?", Line_Normal);
 
 		char Item[2];
 
