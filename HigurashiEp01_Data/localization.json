@@ -234,7 +234,7 @@
 			"text": "Como Segunda Opção"
 		},
 		"MODMenuNormal_55": {
-			"text": "Apenas usa o lipsync computado se não houver um arquivo de 'spectrum' preparado para um arquivo .ogg."
+			"text": "Apenas usa lipsync computado se não houver um arquivo de 'spectrum' preparado para um arquivo .ogg."
 		},
 		"MODMenuNormal_56": {
 			"text": "Sempre Computado"
@@ -264,7 +264,7 @@
 			"text": "Soluções"
 		},
 		"MODMenuNormal_65": {
-			"text": "Ferramentas para te ajudar se algo der errado"
+			"text": "Ferramentas para te ajudar caso algo dê errado"
 		},
 		"MODMenuNormal_66": {
 			"text": "Aspect Ratio 4:3 (experimental)"
