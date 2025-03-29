@@ -1812,7 +1812,8 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/500300716", 256, TRUE);
 	OutputLine(NULL, "「悪いけど。いきなりキメさせてもらうよ！！！",
-		   NULL, "\"Muito mau para vocês! Vou terminar isso agora!!!", Line_WaitForInput);
+		   //NULL, "\"Muito mau para vocês! Vou terminar isso agora!!!", Line_WaitForInput);
+		   NULL, "\"Muito ruim para vocês! Vou terminar isso agora!!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/500300717", 256, TRUE);
 	OutputLine(NULL, "　おじさんはこれだッああぁあぁ！！」",
 		   NULL, " Oji-san trouxe istoooo!!\"", Line_Continue);
@@ -2257,7 +2258,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/500300721", 256, TRUE);
 	OutputLine(NULL, "「………圭ちゃんの方がわかんね〜センスしてるよー。」",
-		   NULL, "\"Kei-chan tem uma definição muito estranha de 'arte.'\"", Line_Normal);
+		   NULL, "\"...Kei-chan tem uma definição muito estranha de 'arte.'\"", Line_Normal);
 	ClearMessage();
 
 
@@ -2285,7 +2286,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 5, "ps3/s19/05/500500294", 256, TRUE);
 	OutputLine(NULL, "「…さぁ圭一。…ボクに勝てますですか？」",
-		   NULL, "\"...Agora, Keiichi. ...Você pode me bater?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...Agora, Keiichi. ...Você pode me vencer?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
