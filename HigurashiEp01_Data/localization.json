@@ -8,6 +8,10 @@
 			"text": "ddd dd MMM, yyyy h:mm tt",
 			"comment": "The 'text' field sets the displayed date time format for save files, for example 'ddd MMM dd, yyyy h:mm tt'. See https://github.com/07th-mod/higurashi-assembly/issues/109 for more details."
 		},
+		"HouPlusWideMenuButtons": {
+			"text": "-1.0",
+			"comment": "To enable, set to the opacity you want for the title menu button when it is hovered, eg '0.5'. For Hou+ the main menu contains one is very wide (button hovered), and one only is as long as the english text (button not hovered). Translators may be unable to fit the text in the short UI file, so I've added a mode which only uses the long button, and uses the engine to give a fade effect when you hover the button. Setting a negative value uses the normal menu."
+		},
 		"ExampleEntry": {
 			"text": "This text will displayed by default.",
 			"textJP": "This text will be displayed when the language is changed to Japanese in-game.",
@@ -23,7 +27,7 @@
 			"text": "[Flags de Áudio e último áudio tocado]"
 		},
 		"MODMenu_2": {
-			"text": "Resetar GAudioSet"
+			"text": "Redefinir GAudioSet"
 		},
 		"MODMenu_3": {
 			"text": "Define GAudioSet para 0, forçando o jogo a realizar uma configuração de áudio na próxima inicialização"
@@ -65,7 +69,7 @@
 			"text": "Por favor, feche o menu atual e tente novamente"
 		},
 		"MODMenu_16": {
-			"text": "Parece que houve um problema na inicialização\n\nPor favor envie aos desenvolvedores seu arquivo de log (output_log.txt ou Player.log).\n\nVocê pode tentar as seguintes soluções para tentar consertar o problema.\n  1. Tentar esperar 30 segundos e ver se o jogo avança. Se nada acontecer, tente reinicializar o jogo\n\n  2. Usar os botões dentro da seção 'Soluções' no canto inferior esquerdo para mostrar seus arquivos de save, arquivos de log, e scripts compilados.\n\n  3. Se o log indica que você tem arquivos de save corrompidos, você talvez deva apagar os saves corrompidos (ou todos eles).\n\n  4. Você pode tentar apagar seus arquivos dos scripts compilados, e então reinicializar o jogo.\n\n  5. Se as possíveis soluções acima não resolverem seu problema, por favor clique no botão 'Abrir Página de Suporte', que tem informações extras sobre soluções de problemas e links para você entrar no nosso servidor do Discord para suporte direto."
+			"text": "Parece que houve um problema na inicialização\n\nPor favor envie aos desenvolvedores seu arquivo de log (output_log.txt ou Player.log).\n\nVocê pode tentar as seguintes soluções para tentar consertar o problema.\n  1. Tentar esperar 30 segundos e ver se o jogo avança. Se nada acontecer, tente reiniciar o jogo.\n\n  2. Usar os botões dentro da seção 'Soluções' no canto inferior esquerdo para mostrar seus arquivos de save, arquivos de log, e scripts compilados.\n\n  3. Se o log indicar que você tem arquivos de save corrompidos, talvez você deva apagar os saves corrompidos (ou todos eles).\n\n  4. Você pode tentar apagar seus arquivos dos scripts compilados, e então reiniciar o jogo.\n\n  5. Se as possíveis soluções acima não resolverem seu problema, por favor clique no botão 'Abrir Página de Suporte', que tem informações extras sobre soluções de problemas e links para você entrar no nosso servidor do Discord para suporte direto."
 		},
 		"MODMenuNormal_0": {
 			"comment": "The below entries are for the F10 mod menu, in the file MOD.Scripts.UI/MODMenuNormal.cs",
@@ -84,7 +88,7 @@
 			"text": "MangaGamer"
 		},
 		"MODMenuNormal_5": {
-			"text": "Utilizar os sprites Mangagamer"
+			"text": "Utilizar os sprites MangaGamer"
 		},
 		"MODMenuNormal_6": {
 			"text": "Original"
@@ -96,22 +100,22 @@
 			"text": "Nível de Voice Matching (Atalho: F2)"
 		},
 		"MODMenuNormal_9": {
-			"text": "Voice Matching Nível 0 - Equivalente ao script da versão Steam/PC do jogo"
+			"text": "Nível de censura 0 - Equivalente ao script da versão Steam/PC do jogo"
 		},
 		"MODMenuNormal_10": {
-			"text": "Voice Matching Nível 1"
+			"text": "Nível de censura 1"
 		},
 		"MODMenuNormal_11": {
-			"text": "Voice Matching Nível 2 (esta é a opção padrão/valor recomendado)"
+			"text": "Nível de censura 2 (esta é a opção padrão/recomendada)"
 		},
 		"MODMenuNormal_12": {
-			"text": "Voice Matching Nível 3"
+			"text": "Nível de censura 3"
 		},
 		"MODMenuNormal_13": {
-			"text": "Voice Matching Nível 4"
+			"text": "Nível de censura 4"
 		},
 		"MODMenuNormal_14": {
-			"text": "Voice Matching Nível 5 - Equivalente ao script da versão de Console do jogo"
+			"text": "Nível de censura 5 - Equivalente ao script da versão de Console do jogo"
 		},
 		"MODMenuNormal_15": {
 			"text": "Lip Sync Desligado"
@@ -141,13 +145,13 @@
 			"text": "Vídeo de Abertura (Atalho: Shift-F12)"
 		},
 		"MODMenuNormal_24": {
-			"text": "Desligado"
+			"text": "Desativado"
 		},
 		"MODMenuNormal_25": {
 			"text": "Desativa todos os vídeos de abertura"
 		},
 		"MODMenuNormal_26": {
-			"text": "Ligado"
+			"text": "Ativado"
 		},
 		"MODMenuNormal_27": {
 			"text": "Ativa os vídeos de abertura\n\nNOTA: Assim que a abertura tocar pela primeira vez, automaticamente a opção 'Inicialização' será selecionada.\n\nNós configuramos as aberturas desta maneira para evitar spoilers."
@@ -186,7 +190,7 @@
 			"text": "BG Original"
 		},
 		"MODMenuNormal_39": {
-			"text": "Utilizar backgrounds originais do Ryukishi."
+			"text": "Utilizar backgrounds originais do Ryukishi"
 		},
 		"MODMenuNormal_40": {
 			"text": "Esticar Background"
@@ -195,13 +199,13 @@
 			"text": "Não Esticar"
 		},
 		"MODMenuNormal_42": {
-			"text": "Faz o background ficar o maior possível sem esticar a imagem (Mantendo o Aspect Ratio)"
+			"text": "Faz o background ficar o maior possível sem esticar a imagem (Mantendo a Proporção)"
 		},
 		"MODMenuNormal_43": {
 			"text": "Esticar"
 		},
 		"MODMenuNormal_44": {
-			"text": "Estica o background para preencher toda a tela (Ignorando o Aspect Ratio)\n\nNormalmente utilizado com os BGs originais, que estão no aspect ratio 4:3."
+			"text": "Estica o background para preencher toda a tela (Ignorando a Proporção)\n\nNormalmente utilizado com os BGs originais, que estão na proporção de tela 4:3."
 		},
 		"MODMenuNormal_45": {
 			"text": "Estilo de Sprite"
@@ -210,13 +214,13 @@
 			"text": "Aparência da Caixa de Texto"
 		},
 		"MODMenuNormal_47": {
-			"text": "ADV"
+			"text": "Modo ADV"
 		},
 		"MODMenuNormal_48": {
 			"text": "Esta opção:\n- Faz o texto aparecer na parte de baixo da tela numa caixa de texto\n- Mostra o nome do personagem atual na caixa de texto\n"
 		},
 		"MODMenuNormal_49": {
-			"text": "NVL"
+			"text": "Modo NVL"
 		},
 		"MODMenuNormal_50": {
 			"text": "Esta opção:\n- Faz o texto aparecer através de toda a tela\n"
@@ -225,7 +229,7 @@
 			"text": "Original"
 		},
 		"MODMenuNormal_52": {
-			"text": "Esta opção:\n- Escurece a tela inteira para emular o jogo original\n- Faz o texto aparecer apenas em uma seção 4:3 da tela (mais estreita que na NVL)\n"
+			"text": "Esta opção:\n- Escurece a tela inteira para emular o jogo original\n- Faz o texto aparecer apenas em uma seção 4:3 da tela (mais estreita que no modo NVL)\n"
 		},
 		"MODMenuNormal_53": {
 			"text": "Forçar Lipsync Computado"
@@ -234,7 +238,7 @@
 			"text": "Como Segunda Opção"
 		},
 		"MODMenuNormal_55": {
-			"text": "Apenas usa lipsync computado se não houver um arquivo de 'spectrum' preparado para um arquivo .ogg."
+			"text": "Apenas usa lipsync computado se não houver um arquivo de 'spectrum' preparado para um arquivo .ogg"
 		},
 		"MODMenuNormal_56": {
 			"text": "Sempre Computado"
@@ -258,7 +262,7 @@
 			"text": "Áudio"
 		},
 		"MODMenuNormal_63": {
-			"text": "Opções de BGM e SE"
+			"text": "Opções de Músicas de Fundo (BGM) e Efeitos Sonoros (SE)"
 		},
 		"MODMenuNormal_64": {
 			"text": "Soluções"
@@ -267,16 +271,16 @@
 			"text": "Ferramentas para te ajudar caso algo dê errado"
 		},
 		"MODMenuNormal_66": {
-			"text": "Aspect Ratio 4:3 (experimental)"
+			"text": "Proporção de Tela 4:3 (Original/Ryukishi, experimental)"
 		},
 		"MODMenuNormal_67": {
 			"text": "16:9 (padrão)"
 		},
 		"MODMenuNormal_68": {
-			"text": "O aspect ratio do jogo será 16:9.\n\nQuando jogando com o preset 'Original', as partes esquerda e direita da tela serão preenchidas para 4:3 com barras pretas."
+			"text": "A proporção de tela do jogo será 16:9.\n\nAo jogar com o preset 'Original', as partes laterais além da proporção de 4:3 serão preenchidas com barras pretas."
 		},
 		"MODMenuNormal_69": {
-			"text": "O aspect ratio do jogo será 4:3, no entanto isso pode causar alguns problemas enquanto você estiver jogando com nosso mod.\nApenas utilize esta opção se o seu monitor utilizar o aspect ratio 4:3, por exemplo um monitor antigo CRT.\n\nPor favor, note o seguinte:\n\n - Você deve selecionar o preset 'Original' antes de ativar esta opção. Outras configurações devem funcionar, mas não foram testadas.\n\n - Imagens 16:9 serão esticadas para encaixar em 4:3 para não serem cortadas. Isso inclui imagens com texto, e CGs se estiverem ativadas.\n\n - Você pode ver alguns artefatos gráficos após ativar esta opção - eles devem desaparecer após a próxima transição de personagem ou após a caixa de texto ser limpa.\n\n"
+			"text": "A proporção de tela do jogo será 4:3, no entanto isso pode causar alguns problemas enquanto você estiver jogando com nosso mod.\nApenas utilize esta opção se o seu monitor utilizar a proporção de tela 4:3, por exemplo um monitor antigo CRT.\n\nPor favor, note o seguinte:\n\n - Você deve selecionar o preset 'Original' antes de ativar esta opção. Outras configurações devem funcionar, mas não foram testadas.\n\n - Imagens 16:9 serão esticadas para encaixar em 4:3 para não serem cortadas. Isso inclui imagens com texto, e CGs se estiverem ativadas.\n\n - Você pode ver alguns artefatos gráficos após ativar esta opção - eles devem desaparecer após a próxima transição de personagem ou após a caixa de texto ser limpa.\n\n"
 		},
 		"MODMenuNormal_70": {
 			"text": "Presets Gráficos (Atalho: F1)"
@@ -297,13 +301,13 @@
 			"text": "Original/Ryukishi"
 		},
 		"MODMenuNormal_76": {
-			"text": "Este preset faz o jogo se comportar de maneira similar ao jogo sem o mod:\n- Mostra backgrounds no aspect ratio 'padrão' 4:3\n- CGs são desativadas (Podem ser re-ativadas na seção 'Mostrar/Esconder CGs')\n- Troca para os sprites e backgrounds originais\n\nNote que os sprites, backgrounds e outras opções ainda podem ser alterados nas opções abaixo."
+			"text": "Este preset faz o jogo se comportar de maneira similar ao jogo sem o mod:\n- Mostra backgrounds na proporção de tela 'padrão' 4:3\n- CGs são desativadas (Podem ser re-ativadas na seção 'Mostrar/Esconder CGs')\n- Troca para os sprites e backgrounds originais\n\nNote que os sprites, backgrounds e outras opções ainda podem ser alterados nas opções abaixo."
 		},
 		"MODMenuNormal_77": {
-			"text": "Customizado"
+			"text": "Personalizado"
 		},
 		"MODMenuNormal_78": {
-			"text": "Seu próprio preset customizado, utilizando as opções abaixo.\n\nEste preset será salvo, mesmo quando você trocar para outros presets."
+			"text": "Seu próprio preset personalizado, utilizando as opções abaixo.\n\nEste preset será salvo, mesmo quando você trocar para outros presets."
 		},
 		"MODMenuNormal_79": {
 			"text": "Opções Avançadas"
@@ -321,7 +325,7 @@
 			"text": "Ferramentas Experimentais de Gameplay"
 		},
 		"MODMenuNormal_84": {
-			"text": "Compleção do Jogo Forçada!"
+			"text": "Conclusão do Jogo Forçada!"
 		},
 		"MODMenuNormal_85": {
 			"text": "Todo o Progresso foi Resetado!"
@@ -330,10 +334,10 @@
 			"text": "Por favor, reinicie o jogo!"
 		},
 		"MODMenuNormal_87": {
-			"text": "Resetar Todo o Progresso "
+			"text": "Resetar Todo o Progresso"
 		},
 		"MODMenuNormal_88": {
-			"text": "Forçar Compleção do Jogo"
+			"text": "Forçar Conclusão do Jogo"
 		},
 		"MODMenuNormal_89": {
 			"text": "Clique mais "
@@ -342,7 +346,7 @@
 			"text": " vezes"
 		},
 		"MODMenuNormal_91": {
-			"text": "AVISO: Esta opção vai alterar o estado de compleção do seu jogo:\n - Se você não terminou o jogo, ela irá desbloquear tudo.\n - Se você já terminou o jogo, ela irá resetar todo o seu progresso!\n\nIsso alterna o menu de EXTRAS, incluindo todas as TIPS (DICAS), e todos os capítulos do chapter jump (pulo de capítulo).\n\nVocê talvez precise recarregar o menu atual ou reiniciar o jogo para ver as mudanças.\n\nSaves não devem ser afetados."
+			"text": "AVISO: Esta opção vai alterar o estado de conclusão do seu jogo:\n - Se você não terminou o jogo, ela irá desbloquear tudo.\n - Se você já terminou o jogo, ela irá resetar todo o seu progresso!\n\nIsso alterna o menu de EXTRAS, incluindo todas as TIPS (DICAS), e todos os capítulos do chapter jump (pulo de capítulo).\n\nVocê talvez precise recarregar o menu atual ou reiniciar o jogo para ver as mudanças.\n\nSaves não devem ser afetados."
 		},
 		"MODMenuNormal_92": {
 			"text": "Não"
@@ -360,7 +364,7 @@
 			"text": "Ferramentas de Desenvolvedor"
 		},
 		"MODMenuNormal_97": {
-			"text": "Menu de Debug do Desenvolvedor"
+			"text": "Menu de Debug de Desenvolvedor"
 		},
 		"MODMenuNormal_98": {
 			"text": "Alternar o menu de Debug (Shift-F9)"
@@ -372,7 +376,7 @@
 			"text": "Alternar o menu de flags (Shift-F10)"
 		},
 		"MODMenuNormal_101": {
-			"text": "Alterna o menu de flags. Alterne várias vezes para ver mais opções.\n\nNota: o 3º e 4º painel apenas serão mostrados se GMOD_DEBUG_MODE for true."
+			"text": "Alterna o menu de flags. Alterne várias vezes para ver mais opções.\n\nNota: o 3º e 4º painel apenas serão mostrados se o valor de 'GMOD_DEBUG_MODE' for 'true'."
 		},
 		"MODMenuNormal_102": {
 			"text": "Mostrar Ferramentas de Desenvolvedor"
@@ -432,13 +436,13 @@
 			"text": "LipSync Thresh 1: "
 		},
 		"MODMenuNormal_121": {
-			"text": "Acima desse threshold, a expressão 1 será usada.\n\nAbaixo ou igual a esse limite, a expressão 0 será usada.\n\nApenas será salvo até que o jogo reinicie"
+			"text": "Acima desse threshold, a expressão 1 será usada.\n\nAbaixo ou igual a esse limite, a expressão 0 será usada.\n\nApenas será salvo até que o jogo reinicie."
 		},
 		"MODMenuNormal_122": {
 			"text": "LipSync Thresh 2: "
 		},
 		"MODMenuNormal_123": {
-			"text": "Acima desse threshold, a expressão 2 será usada.\n\nApenas será salvo até que o jogo reinicie"
+			"text": "Acima desse threshold, a expressão 2 será usada.\n\nApenas será salvo até que o jogo reinicie."
 		},
 		"MODMenuNormal_124": {
 			"text": "Definir"
@@ -456,14 +460,14 @@
 			"text": "\n\nDefine o nível de censura do script\n- Esta configuração existe porque as vozes foram retiradas da versão de Console do jogo que contém censura, então, não existem vozes do diálogo sem censura da versão de PC.\n- Nós recomendamos o nível padrão (2), a opção mais equilibrada. Usando esta oção, apenas mudanças de copyright, insinuações, e poucas palavras serão alteradas.\n  - 5: Usa as vozes do script de PS3 o tanto quanto for possível (com censura em algumas partes).\n  - 2: Padrão - opção mais equilibrada.\n  - 0: Script original de PC com vozes onde encaixam (sem censura alguma), mas cenas sem a censura podem ficar sem vozes."
 		},
 		"MODMenuNormal_129": {
-			"text": "Passe o mouse sobre um botão na esquerda para ver sua descrição.\n\n[Atalhos Vanilla]\nEnter,Return,RightArrow,PageDown : Avançar Texto\nLeftArrow,Pageup : Ver Histórico\nESC : Abrir Menu\nSegurar Ctrl : Pular Texto\nA : Modo Automático\nS : Alternar Pulo de Texto\nF, Alt + Enter : Alternar Tela Cheia\nEspaço : Esconder Texto\nL : Trocar Idioma\n\n[Atalhos do MOD]\nF1 : Modo ADV-NVL\nF2 : Nível de Voice Matching\nF3 : Nível de Efeito (Não usado)\nF5 : Salvamento Rápido\nF7 : Carregamento Rápido\nF10 : Menu do Mod\nM : Aumentar Volume da Voz\nN : Diminuir Volume da Voz\nP : Alternar Estilo de Sprite\n2 : Alternar BGM/SE\n7 : Ligar/Desligar Lip-Sync\nLShift + M : Volume da Voz Máximo\nLShift + N : Volume da Voz Mínimo"
+			"text": "Passe o mouse sobre um botão na esquerda para ver sua descrição.\n\n[Atalhos Vanilla]\nEnter, Return, RightArrow, PageDown : Avançar Texto\nLeftArrow, Pageup : Ver Histórico\nESC : Abrir Menu\nSegurar Ctrl : Pular Texto\nA : Modo Automático\nS : Alternar Pulo de Texto\nF, Alt + Enter : Alternar Tela Cheia\nEspaço : Esconder Texto\nL : Trocar Idioma\n\n[Atalhos do MOD]\nF1 : Modo ADV-NVL\nF2 : Nível de Voice Matching\nF3 : Nível de Efeito (Não usado)\nF5 : Salvamento Rápido\nF7 : Carregamento Rápido\nF10 : Menu do Mod\nM : Aumentar Volume da Voz\nN : Diminuir Volume da Voz\nP : Alternar Estilo de Sprite\n2 : Alternar BGM/SE\n7 : Ligar/Desligar Lip-Sync\nLShift + M : Volume da Voz Máximo\nLShift + N : Volume da Voz Mínimo"
 		},
 		"MODMenuResolution_0": {
 			"comment": "The below entries are for Resolution part of the F10 mod menu, in the file MOD.Scripts.UI/MODMenuResolution.cs",
-			"text": "Define uma resolução de tela cheia customizada\n\nUtilize esta opção apenas se a resolução de tela cheia detectada pelo jogo for incorreta (como em alguns sistemas Linux).\nVocê pode digitar manualmente uma resolução na esquerda.\n\nClique em 'Limpar' para deixar que o jogo determine automaticamente a resolução."
+			"text": "Define uma resolução de tela cheia personalizada\n\nUtilize esta opção apenas se a resolução de tela cheia detectada pelo jogo for incorreta (como em alguns sistemas Linux).\nVocê pode digitar manualmente uma resolução na esquerda.\n\nClique em 'Limpar' para deixar que o jogo determine automaticamente a resolução."
 		},
 		"MODMenuResolution_1": {
-			"text": "Configurações de Resolução da Janela"
+			"text": "Configurações de Resolução do Modo Janela"
 		},
 		"MODMenuResolution_2": {
 			"text": "480p"
@@ -493,7 +497,7 @@
 			"text": "Definir"
 		},
 		"MODMenuResolution_11": {
-			"text": "Define uma resolução customizada para o modo janela.\n\nA altura será definida automaticamente para manter o aspect ratio 16:9."
+			"text": "Define uma resolução personalizada para o modo janela.\n\nA altura será definida automaticamente para manter a proporção de tela 16:9."
 		},
 		"MODMenuResolution_12": {
 			"text": "Altura muito pequena - deve ser mais que 480 pixels"
@@ -502,7 +506,7 @@
 			"text": "Altura muito grande - deve ser menos que 15360 pixels"
 		},
 		"MODMenuResolution_14": {
-			"text": "Clique para voltar ao modo Janela"
+			"text": "Clique para voltar ao modo janela"
 		},
 		"MODMenuResolution_15": {
 			"text": "Alternar Tela Cheia"
@@ -604,19 +608,19 @@
 			"text": "Por favor, passe o mouse por cima de um botão para ver mais informações"
 		},
 		"MODMenuSupport_1": {
-			"text": "Arquivos de Save e de Log"
+			"text": "Arquivos de Save e Log"
 		},
 		"MODMenuSupport_2": {
 			"text": "Mostrar output_log.txt / Player.log"
 		},
 		"MODMenuSupport_3": {
-			"text": "Este botão mostra a localização dos arquivos 'ouput_log.txt' ou 'Player.log'\n\n- Este arquivo é chamado 'output_log.txt' no Windows e 'Player.log' no MacOS/Linux\n- Este arquivo grava erros que ocorreram durante a gameplay, e durante a inicialização do jogo\n- Este arquivo ajuda quando o jogo falha em iniciar, por exemplo\n  - um save corrompido\n  - Interface de Usuário errada (arquivo sharedassets0.assets)\n- Note que cada vez que o jogo inicia, o arquivo de log atual é substituído"
+			"text": "Este botão mostra a localização dos arquivos 'ouput_log.txt' ou 'Player.log'\n\n- Este arquivo é chamado 'output_log.txt' no Windows e 'Player.log' no MacOS/Linux\n- Este arquivo grava erros que ocorreram durante a gameplay e a inicialização do jogo\n- Este arquivo ajuda quando o jogo falha em iniciar, por exemplo\n  - um save corrompido\n  - Interface de Usuário errada (arquivo sharedassets0.assets)\n- Note que, a cada vez que o jogo for iniciado, o arquivo de log atual é substituído"
 		},
 		"MODMenuSupport_4": {
 			"text": "Mostrar Saves"
 		},
 		"MODMenuSupport_5": {
-			"text": "Clique para abrir a pasta de saves, que inclui saves, quicksaves, e dados globais de save\n\nLimpar seus arquivos de save pode consertar alguns problemas com a inicialização do jogo, e resetar todas as flags do mod.\n\n- AVISO: A Nuvem da Steam vai restaurar seus saves se você deletá-los manualmente! Antes disso, lembre-se de desativar a nuvem da steam, caso contrário, seus saves vão magicamente reaparecer!\n- O arquivo 'global.dat' guarda seu progresso de compleção global e as flags do mod\n- O arquivo 'qsaveX.dat' e 'saveXXX.dat' contém saves individuais. Se esses corromperem podem acabar quebrando seu jogo!\n- É recomendado fazer um backup de todos os seus saves antes de modificá-los."
+			"text": "Clique para abrir a pasta de saves, que inclui saves, quicksaves, e dados globais de save\n\nLimpar seus arquivos de save pode consertar alguns problemas com a inicialização do jogo, além de resetar todas as flags do mod.\n\n- AVISO: A Nuvem da Steam vai restaurar seus saves se você deletá-los manualmente! Antes disso, lembre-se de desativar a nuvem da steam, caso contrário, seus saves vão magicamente reaparecer!\n- O arquivo 'global.dat' guarda seu progresso de conclusão global e as flags do mod\n- O arquivo 'qsaveX.dat' e 'saveXXX.dat' contém saves individuais. Se esses corromperem podem acabar quebrando seu jogo!\n- É recomendado fazer um backup de todos os seus saves antes de modificá-los."
 		},
 		"MODMenuSupport_6": {
 			"text": "Acesso Rápido às Pastas do Jogo"
@@ -631,7 +635,7 @@
 			"text": "Mostrar Pasta StreamingAssets"
 		},
 		"MODMenuSupport_10": {
-			"text": "Clique para abrir a Pasta StreamingAssets, que contém a maioria dos assets do jogo.\n\n- Maior parte da Imagens/Texturas, incluindo Sprites, Backgrounds, Imagens de Texto, e efeitos de Filtro\n- Vozes, Músicas de Fundo (BGM), e Efeitos Sonoros (SE)\n- Scripts do Jogo e Scripts Compilados do Jogo\n- Aberturas\n- E Outros Arquivos Relacionados ao Jogo"
+			"text": "Clique para abrir a Pasta StreamingAssets, que contém a maioria dos assets do jogo.\n\n- Maior parte da Imagens/Texturas, incluindo Sprites, Backgrounds, Imagens de Texto e efeitos de Filtro\n- Vozes, Músicas de Fundo (BGM) e Efeitos Sonoros (SE)\n- Scripts do Jogo e Scripts Compilados do Jogo\n- Aberturas\n- E Outros Arquivos Relacionados ao Jogo"
 		},
 		"MODMenuSupport_11": {
 			"text": "Mostrar Pasta DLL"
@@ -665,16 +669,36 @@
 			"comment": "MODMenuSupportCompileFailed* are for the emergency menu when one or more scripts fail to compile"
 		},
 		"MODMenuSupportCompileFailed_21": {
-			"text": "Por favor, tente reinicializar o jogo. Se isso não funcionar, envie seu output_log.txt/Player.log (veja abaixo) para a 07th-mod para análise."
+			"text": "Por favor, tente reiniciar o jogo. Se isso não funcionar, envie seu output_log.txt/Player.log (veja abaixo) para a 07th-mod para análise."
 		},
 		"MODMenuSupportCompileFailed_22": {
 			"text": "Os seguintes scripts falharam durante a compilação:"
 		},
 		"MODMenuSupportCompileFailed_23": {
-			"text": "Continuar jogando de qualquer maneira (NÃO RECOMENDADO)"
+			"text": "Ignorar e continuar jogando (NÃO RECOMENDADO)"
 		},
 		"MODMenuSupportCompileFailed_24": {
 			"text": "NÃO É RECOMENDADO continuar jogando após este erro. O jogo pode parecer estar OK, mas assim que você chegar no script que falhou em compilar, o jogo pode reiniciar, você pode ver vários glitches gráficos, ou acabar pulando grande parte da história inesperadamente."
+		},
+		"MusicBoxRepeat": {
+			"text": "Repetir",
+			"textJP": "1曲リピート",
+			"comment": "Music box button (hou+)"
+		},
+		"MusicBoxShuffle": {
+			"text": "Aleatório",
+			"textJP": "気まぐれ演奏",
+			"comment": "Music box button (hou+)"
+		},
+		"MusicBoxPlayAll": {
+			"text": "Todas",
+			"textJP": "全曲演奏",
+			"comment": "Music box button (hou+)"
+		},
+		"MusicBoxTitle": {
+			"text": "[Título]",
+			"textJP": "【Title】",
+			"comment": "Music box button (hou+)"
 		}
 	}
 }
