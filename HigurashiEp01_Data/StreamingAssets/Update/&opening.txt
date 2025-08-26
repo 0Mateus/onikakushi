@@ -33,7 +33,7 @@ void OpeningQuestion()
 void OpeningLaunch()
 {
 	if (GetGlobalFlag(GVideoOpening) >= 3) {
-		ModPlayMovie("mv01");
+		ModPlayMovie("mv01_br");
 	}
 }
 
@@ -41,6 +41,6 @@ void OpeningStory()
 {
 	if (GetGlobalFlag(GVideoOpening) >= 2) {
 		SetGlobalFlag(GVideoOpening, 3);
-		ModPlayMovie("mv01");
+		ModPlayMovie("mv01_br");
 	}
 }

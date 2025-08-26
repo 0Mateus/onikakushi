@@ -2,3 +2,5 @@
 /HigurashiEp01_Data/StreamingAssets/movies
 Onikakushi_PT-BR.7z
 release.bat
+/HigurashiEp01_Data/*.assets
+/HigurashiEp01_Data/*.languagespecificassets
