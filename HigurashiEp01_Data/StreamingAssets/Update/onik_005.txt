@@ -3350,7 +3350,7 @@ void main()
 //……革命返しだぁああぁあぁああッ！！！！！＠
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei07790", 256, TRUE);
 	OutputLine(NULL, "……革命返しだぁああぁあぁああッ！！！！！」",
-		   NULL, " ...Reversão Reversão!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Reversão da Reversão!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
