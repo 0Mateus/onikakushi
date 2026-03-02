@@ -1646,7 +1646,7 @@ void main()
 //　てめぇの仕業か魅音んんんんッんんッ！！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　てめぇの仕業か魅音んんんんッんんッ！！！",
-		   NULL, "Isso é seu trabalho, Mionnnnnnn!!!", Line_Normal);
+		   NULL, "Isso é coisa sua, Mionnnnnnn!!!", Line_Normal);
 	ClearMessage();
 
 
