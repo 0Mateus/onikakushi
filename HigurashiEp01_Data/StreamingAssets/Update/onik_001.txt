@@ -1054,7 +1054,7 @@ void main()
 		   NULL, "\"Eu cresci esplendidamente.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "org/keiichi0001", 256, TRUE);
 	OutputLine(NULL, "驚くぞ。」",
-		   NULL, " Você ficaria surpresa.\"",  GetGlobalFlag(GLinemodeSp));
+		   NULL, " Você ficaria surpresa.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1095,7 +1095,7 @@ void main()
 //　朝の新鮮な空気をここまで台無しにする下品トークは聞いたことないぞ...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　朝の新鮮な空気をここまで台無しにする下品トークは聞いたことないぞ…。",
-		   NULL, "Eu acho que nunca ouvi algo tão sujo antes, que poderia até ser sentido no cheiro do ar da manhã.",  GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu acho que nunca ouvi algo tão sujo antes, que poderia até ser sentido no cheiro do ar da manhã.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

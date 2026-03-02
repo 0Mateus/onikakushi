@@ -3599,7 +3599,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 4, "ps3/s19/04/990400156", 256, TRUE);
 	OutputLine(NULL, "「レナさんに圭一さんが倒せたらですわぁあぁああぁッ！！！」",
-		   NULL, "\"Depois que Rena-san bater Keiichi-san ela pode ~waaa!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Depois que Rena-san vencer Keiichi-san ela pode ~waaa!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

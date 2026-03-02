@@ -266,7 +266,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200231", 256, TRUE);
 	OutputLine(NULL, "「レナもがんばるもの！今日は負けないぞー！」",
-		   NULL, "\"Eu também vou dar meu melhor! Você não pode me bater~!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Eu também vou dar meu melhor! Você não vai vencer de mim~!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1717,7 +1717,7 @@ void main()
 //　勝利と魅音をはめた代償はあまりにも高いようだった…￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　勝利と魅音をはめた代償はあまりにも高いようだった…。",
-		   NULL, "O custo de bater Mion era bem caro...", Line_Normal);
+		   NULL, "O custo de vencer Mion era bem caro...", Line_Normal);
 	ClearMessage();
 
 

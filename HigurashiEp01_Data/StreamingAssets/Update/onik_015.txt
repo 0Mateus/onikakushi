@@ -1745,8 +1745,8 @@ void main()
 
 
 //　もう魅音は何も言い返せなかった￥
-	OutputLine(NULL, "　もう魅音は何も言い返せなかった。",
-		   NULL, " Mion não estava replicando.", Line_Normal);
+	OutputLine(NULL, "もう魅音は何も言い返せなかった。",
+		   NULL, "Mion não estava replicando.", Line_Normal);
 	ClearMessage();
 
 
@@ -6586,8 +6586,8 @@ void main()
 		   NULL, "Esse era um local ruim para correr, mas não havia lugar melhor para um atacante.", Line_Normal);
 
 //　心臓はすでに爆発寸前だった＠
-	OutputLine(NULL, "　心臓はすでに爆発寸前だった。",
-		   NULL, " Meu coração já estava à beira de explodir.", GetGlobalFlag(GLinemodeSp));
+	OutputLine(NULL, "心臓はすでに爆発寸前だった。",
+		   NULL, "Meu coração já estava à beira de explodir.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
