@@ -4099,7 +4099,7 @@ void main()
 //　食事用の先割れスプーンを喉に詰まらせ窒息死したというのだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　食事用の先割れスプーンを喉に詰まらせ窒息死したというのだ。",
-		   NULL, "Ele engoliu um spork e sufocou até a morte.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele engoliu um talher e sufocou até a morte.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
