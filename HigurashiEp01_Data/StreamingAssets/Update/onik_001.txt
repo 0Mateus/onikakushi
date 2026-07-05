@@ -4096,7 +4096,7 @@ void main()
 //　レナにしてはかなりの積極的なアプローチに思わず赤面した＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナにしてはかなりの積極的なアプローチに思わず赤面した。",
-		   NULL, "Foi uma questão direta de Rena e eu sem querer fiquei vermelho", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Foi uma questão direta de Rena e eu sem querer fiquei vermelho.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
