@@ -4231,7 +4231,7 @@ void main()
 //　それとも......あの楽しかった日々は...虚偽だったのだろうか...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それとも……あの楽しかった日々は…虚偽だったのだろうか…？",
-		   NULL, "Ou poderia ser que... esses dias felizes... também fossem penas uma farsa...?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ou poderia ser que... esses dias felizes... também fossem apenas uma farsa...?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
