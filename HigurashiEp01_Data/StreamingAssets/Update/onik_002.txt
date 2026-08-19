@@ -691,7 +691,7 @@ void main()
 //　恐るべし…雛見沢￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　恐るべし…雛見沢！",
-		   NULL, "Hinamizawaza não era mesmo um lugar para se brincar!", Line_Normal);
+		   NULL, "Hinamizawa não era mesmo um lugar para se brincar!", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawBustshotWithFiltering(5, "black", "left", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 25, 1300, TRUE );
