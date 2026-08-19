@@ -2858,7 +2858,7 @@ void main()
 		   NULL, "\"Oji-san pensa que gastar tempo estudando é inútil,", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300047", 256, TRUE);
 	OutputLine(NULL, "この思春期の貴重な時間をもっと有意義に過ごすために使うべきじゃないかなぁ、と考えるわけよ。」",
-		   NULL, " você deveria gastar seus anos de juventude fazendo coisas mais significativas. (*) Mion refere-se frequentemente a si mesma como oji-san, que significa tio, ou homem velho.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " você deveria gastar seus anos de juventude fazendo coisas mais significativas.\" (*) Mion refere-se frequentemente a si mesma como oji-san, que significa tio, ou homem velho.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
